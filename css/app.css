@@ -690,12 +690,12 @@ body.loaded #sidebar .panel.active,
   -webkit-animation: slideUpBigIn 0.5s;
           animation: slideUpBigIn 0.5s;
 }
-.slide-right-in {
+.slide-right-in,
+#tool.affix .play-list.show {
   -webkit-animation: slideRightIn 0.3s;
           animation: slideRightIn 0.3s;
 }
-.slide-left-in,
-#tool.affix .play-list.show {
+.slide-left-in {
   -webkit-animation: slideLeftIn 0.3s;
           animation: slideLeftIn 0.3s;
 }
@@ -1119,7 +1119,7 @@ body {
 body {
   background: linear-gradient(to top, var(--body-bg-shadow) 0, var(--grey-1) 20%) no-repeat bottom;
   color: var(--text-color);
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
   -webkit-font-smoothing: antialiased;
@@ -1150,7 +1150,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mulish', 'Noto Serif SC', 'Noto Serif JP', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 1.25rem 0 0.9375rem;
@@ -1161,7 +1161,7 @@ h3.title,
 h4.title,
 h5.title,
 h6.title {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mulish', 'Noto Serif JP', 'Noto Serif SC', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 a {
   border: none;
@@ -1526,6 +1526,7 @@ textarea {
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 @media (min-width: 1200px) {
   #main >.inner {
@@ -1887,12 +1888,12 @@ textarea {
   align-items: center;
 }
 #brand .artboard {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Fredericka the Great', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 3.5em;
   line-height: 1.2;
 }
 #brand h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   letter-spacing: 0.125rem;
 }
 #brand .artboard + h1 {
@@ -1934,12 +1935,12 @@ textarea {
 }
 @media (max-width: 413px) {
   #brand .artboard {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }
 #tool {
   position: fixed;
-  left: 1rem;
+  right: 1rem;
   top: 50vh;
   z-index: 9;
 }
@@ -1992,7 +1993,7 @@ textarea {
   position: fixed;
   display: none;
   bottom: 0;
-  left: 3.5rem;
+  right: 3.5rem;
   width: 50vw;
   z-index: 9;
   color: var(--text-color);
@@ -2196,7 +2197,7 @@ textarea {
   box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
   background: var(--grey-1-a3);
   border-radius: 0.3125rem;
-  left: 0;
+  right: 0;
   bottom: 0;
 }
 #tool.affix .item {
@@ -2214,11 +2215,11 @@ textarea {
   display: block;
 }
 #tool.affix .play-list {
-  left: 2.5rem;
+  right: 2.5rem;
 }
 @media (min-width: 1200px) {
   #tool.affix .play-list {
-    left: 3.5rem;
+    right: 3.5rem;
   }
 }
 @media (max-width: 991px) {
@@ -2229,12 +2230,6 @@ textarea {
 }
 #tool.affix .play-list.show {
   display: block;
-}
-@media (max-width: 991px) {
-  #tool.affix .play-list.show {
-    -webkit-animation: slideRightIn 0.3s;
-            animation: slideRightIn 0.3s;
-  }
 }
 #tool.affix .back-to-top {
   align-items: center;
@@ -2252,7 +2247,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #tool.affix {
-    left: 1rem;
+    right: 1rem;
     bottom: 1rem;
   }
 }
@@ -2536,35 +2531,41 @@ textarea {
   top: -10%;
   left: -10%;
 }
-.social .item.qq::before {
-  background-color: #12B7F5;
-}
-.social .item.qq i {
-  color: #12B7F5;
-}
-.social .item.wechat::before {
-  background-color: #09BB07;
-}
-.social .item.wechat i {
-  color: #09BB07;
-}
-.social .item.instagram::before {
-  background-color: #DA2E76;
-}
-.social .item.instagram i {
-  color: #DA2E76;
-}
 .social .item.github::before {
-  background-color: #24292E;
+  background-color: #191717;
 }
 .social .item.github i {
-  color: #24292E;
+  color: #191717;
 }
-.social .item.email::before {
-  background-color: conmai;
+.social .item.twitter::before {
+  background-color: #00aff0;
 }
-.social .item.email i {
-  color: conmai;
+.social .item.twitter i {
+  color: #00aff0;
+}
+.social .item.zhihu::before {
+  background-color: #1e88e5;
+}
+.social .item.zhihu i {
+  color: #1e88e5;
+}
+.social .item.music::before {
+  background-color: #e60026;
+}
+.social .item.music i {
+  color: #e60026;
+}
+.social .item.weibo::before {
+  background-color: #ea716e;
+}
+.social .item.weibo i {
+  color: #ea716e;
+}
+.social .item.about::before {
+  background-color: #3b5998;
+}
+.social .item.about i {
+  color: #3b5998;
 }
 .social .item:focus i,
 .social .item:hover i {
@@ -2766,7 +2767,7 @@ textarea {
   margin: 0 auto;
   text-align: center;
   width: calc(100% - 0.625rem);
-  padding-right: 16.25rem;
+  padding-left: 16.25rem;
 }
 @media (min-width: 1200px) {
   #container > footer .inner {
@@ -2802,7 +2803,7 @@ textarea {
   width: 100%;
 }
 .with-love {
-  color: ;
+  color: #ffc0cb;
   display: inline-block;
   margin: 0 0.3125rem 0 0.125rem;
 }
@@ -2864,7 +2865,7 @@ textarea {
   padding: 0 2rem;
 }
 .md {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -2947,7 +2948,7 @@ textarea {
 .post header .meta {
   text-align: center;
   border-top: 0.0625rem dashed var(--grey-9-a1);
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .post .meta {
   color: var(--grey-5);
@@ -3265,7 +3266,7 @@ textarea {
 .article .md .anchor::before,
 .article .md .anchor::after {
   content: "H";
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   left: -1.875rem;
   top: 1rem;
   width: 1.25rem;
@@ -4637,7 +4638,7 @@ pre,
 code,
 .code-container,
 .highlight.fullscreen {
-  font-family: consolas, Menlo, -apple-system, "PingFang SC", "Microsoft YaHei";
+  font-family: 'Inconsolata', consolas, Menlo, -apple-system, "PingFang SC", "Microsoft YaHei";
   font-size: 1em;
 }
 :not(td)>pre {
@@ -5281,7 +5282,7 @@ span.label {
   border-radius: 0.3rem;
   border: 0.0625rem solid;
   padding: 0.2rem 0.3rem;
-  font-family: consolas, Menlo, -apple-system, "PingFang SC", "Microsoft YaHei";
+  font-family: 'Inconsolata', consolas, Menlo, -apple-system, "PingFang SC", "Microsoft YaHei";
   font-size: 1em;
   background: #f8f8f9;
   border-color: #e1e1e1;
@@ -5395,7 +5396,7 @@ span.label.danger {
 }
 .links .item .title {
   margin: 0.5rem 0;
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mulish', 'Noto Serif JP', 'Noto Serif SC', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   color: var(--block-color);
 }
