@@ -5,33 +5,8 @@
         <link>http://example.com</link>
         <description></description>
         <language>en</language>
-        <pubDate>Mon, 14 Sep 2020 14:56:45 +0800</pubDate>
-        <lastBuildDate>Mon, 14 Sep 2020 14:56:45 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">http://example.com/2020/09/14/%E5%88%9D%E9%81%87R%E8%AF%AD%E8%A8%80/</guid>
-            <title></title>
-            <link>http://example.com/2020/09/14/%E5%88%9D%E9%81%87R%E8%AF%AD%E8%A8%80/</link>
-            <pubDate>Mon, 14 Sep 2020 14:56:45 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;1、R 基础包&lt;/p&gt;
-&lt;p&gt;2、R 扩展包（实现特定的分析功能，主意安装时不要解压缩）&lt;/p&gt;
-&lt;p&gt;3、eg： install packages (“forecast”), 连网时。安装过程中，R 会自动下载并安装所需的相关联的其他包。有时候也需要手动安装相关联的包。&lt;/p&gt;
-&lt;p&gt;4、扩展包的使用：&lt;/p&gt;
-&lt;p&gt;加载扩展包：library（forecast）或者 require（forecast）、ggplots&lt;/p&gt;
-&lt;p&gt;查看扩展包：&lt;/p&gt;
-&lt;p&gt;.libPaths()&lt;/p&gt;
-&lt;p&gt;Library(help=&amp;quot;&amp;quot;)&lt;/p&gt;
-&lt;p&gt;.Package&lt;/p&gt;
-&lt;p&gt;5、帮助函数：&lt;/p&gt;
-&lt;p&gt;help.start()&lt;/p&gt;
-&lt;p&gt;help() 、?、args()、example()&lt;/p&gt;
-&lt;p&gt;6、帮助文件的内容&lt;/p&gt;
-&lt;p&gt;7、使用 R 语言的几点注意事项&lt;/p&gt;
-&lt;p&gt;8、对象：区分大小写、对象不能以数字开头；&lt;/p&gt;
-&lt;p&gt;对象类型：数值型、字符型、逻辑型，因子型、复数数&lt;/p&gt;
-&lt;p&gt;对象的属性&lt;/p&gt;
-&lt;p&gt;对象的类别&lt;/p&gt;
- ]]></description>
-        </item>
+        <pubDate>Sun, 13 Sep 2020 19:42:17 +0800</pubDate>
+        <lastBuildDate>Sun, 13 Sep 2020 19:42:17 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">http://example.com/2020/09/13/%E6%8E%92%E5%BA%8F/</guid>
             <title></title>
