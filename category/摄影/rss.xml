@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;摄影&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
+        <lastBuildDate>Sun, 12 Apr 2020 20:46:25 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/04/12/photography/%E6%9C%9D%E4%B8%8E%E5%A4%95/</guid>
+            <title>Hello World</title>
+            <link>http://example.com/2020/04/12/photography/%E6%9C%9D%E4%B8%8E%E5%A4%95/</link>
+            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+    </channel>
+</rss>

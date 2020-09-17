@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hexo • All posts by \"摄影\" category",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2020/04/12/photography/%E6%9C%9D%E4%B8%8E%E5%A4%95/",
+            "url": "http://example.com/2020/04/12/photography/%E6%9C%9D%E4%B8%8E%E5%A4%95/",
+            "title": "Hello World",
+            "date_published": "2020-04-12T12:46:25.000Z",
+            "content_html": "",
+            "tags": []
+        }
+    ]
+}
