@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Hexo • Posts by &#34;python&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2020-04-12T12:46:25.000Z</updated>
+    <entry>
+        <id>http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/"/>
+        <content type="html"></content>
+        <updated>2020-04-12T12:46:25.000Z</updated>
+    </entry>
+</feed>
