@@ -8,9 +8,111 @@
         <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
         <lastBuildDate>Sun, 12 Apr 2020 20:46:25 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/R/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C/</guid>
+            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/r/R%E8%AF%AD%E8%A8%80%EF%BC%9A%E7%AC%AC%E4%B8%80%E8%AF%BE/</guid>
+            <title>R语言：第一课</title>
+            <link>http://example.com/2020/04/12/computer-science/r/R%E8%AF%AD%E8%A8%80%EF%BC%9A%E7%AC%AC%E4%B8%80%E8%AF%BE/</link>
+            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;r语言第一课&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#r语言第一课&#34;&gt;#&lt;/a&gt; R 语言：第一课&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9yL3Itc2V0dXAuaHRtbA==&#34;&gt;R 语言的环境安装&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC8xYTBmMjUwODZlOGI=&#34;&gt;RStudio 安装&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-从帮助文档中获取信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-从帮助文档中获取信息&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1、从帮助文档中获取信息&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;常用帮助函数包括：&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;help.start()&lt;/u&gt;: 该命令会打开浏览器的窗口，显示帮助文档的首页。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;help()、args()、example()&lt;/u&gt;: 了解更多关于某个函数的信息、调用简介和操作实例。help (函数名)，等价于 &lt;u&gt;？函数名&lt;/u&gt;    。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;help.search()&lt;/u&gt;: 查看是否有实现某种功能的函数。等价于&lt;u&gt;?? 加函数名&lt;/u&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;help(package=&amp;quot;…&amp;quot;)&lt;/u&gt;: 查阅特定包的信息。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;RSiteSearch()&lt;/u&gt;: 可以使用关键词来搜索在线的帮助文档和邮件列表存档。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;apropos()&lt;/u&gt;: 以局部匹配的方式进行关键词搜索，即返回名称中含有某个关键词的所有对象。&lt;/p&gt;
+&lt;h3 id=&#34;2-基础包和扩展包&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-基础包和扩展包&#34;&gt;#&lt;/a&gt; &lt;strong&gt;2、基础包和扩展包&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;1）、随着 R 语言一起安装的、用于执行各种统计或制图等基本功能的程式包，称为基础包（标准包）。&lt;/p&gt;
+&lt;p&gt;主要的基础包：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;基础包&lt;/th&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;base&lt;/td&gt;
+&lt;td&gt;提供各类基础函数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;datasets&lt;/td&gt;
+&lt;td&gt;提供各种示例数据集&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;graphics&lt;/td&gt;
+&lt;td&gt;提供各种基础绘图函数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;grDevices&lt;/td&gt;
+&lt;td&gt;提供基础或者 grid 图形设备&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;methods&lt;/td&gt;
+&lt;td&gt;用于 R 对象或者编程工具的方法和类的定义&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;utils&lt;/td&gt;
+&lt;td&gt;提供 R 语言工具函数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;stats&lt;/td&gt;
+&lt;td&gt;提供常用统计函数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;2）、除了基础包以外，基于 R 语言的来源特性，各个领域的专家和使用者编写了大量扩展性的软件包，简称为扩展包（捐献包）。&lt;/p&gt;
+&lt;h3 id=&#34;常用命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用命令&#34;&gt;#&lt;/a&gt; &lt;strong&gt;常用命令&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;命令&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;setwd()&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;查看当前目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;setwd()&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;设置目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;install.package()&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;安装包&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;library () 或 require ()&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;加载包&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;.packages(all.available=TRUE)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;查看本地安装的所有包&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;demo(package=.packages(all.available=TRUE))&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;查看所有包中可供演示的部分&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;3-变量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-变量&#34;&gt;#&lt;/a&gt; &lt;strong&gt;3、变量&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;R 语言的变量名称由字母、数字以及 ** &lt;code&gt;.&lt;/code&gt; ** 或者下划线 &lt;code&gt;_&lt;/code&gt; 组成。&lt;/p&gt;
+&lt;p&gt;变量名称以字母或者 &lt;code&gt;.&lt;/code&gt;  开头。  &lt;code&gt;.&lt;/code&gt;  号开头后面不能跟着数字。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/r/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C/</guid>
             <title>数据操作</title>
-            <link>http://example.com/2020/04/12/computer-science/R/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C/</link>
+            <link>http://example.com/2020/04/12/computer-science/r/%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C/</link>
             <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数据操作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据操作&#34;&gt;#&lt;/a&gt; 数据操作&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -115,108 +217,6 @@
 &lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5CASUS%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200928144738564.png&#34; alt=&#34;image-20200928144738564&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/R/R%E8%AF%AD%E8%A8%80%EF%BC%9A%E7%AC%AC%E4%B8%80%E8%AF%BE/</guid>
-            <title>R语言：第一课</title>
-            <link>http://example.com/2020/04/12/computer-science/R/R%E8%AF%AD%E8%A8%80%EF%BC%9A%E7%AC%AC%E4%B8%80%E8%AF%BE/</link>
-            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;r语言第一课&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#r语言第一课&#34;&gt;#&lt;/a&gt; R 语言：第一课&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9yL3Itc2V0dXAuaHRtbA==&#34;&gt;R 语言的环境安装&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC8xYTBmMjUwODZlOGI=&#34;&gt;RStudio 安装&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;1-从帮助文档中获取信息&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-从帮助文档中获取信息&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1、从帮助文档中获取信息&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;常用帮助函数包括：&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;help.start()&lt;/u&gt;: 该命令会打开浏览器的窗口，显示帮助文档的首页。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;help()、args()、example()&lt;/u&gt;: 了解更多关于某个函数的信息、调用简介和操作实例。help (函数名)，等价于 &lt;u&gt;？函数名&lt;/u&gt;    。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;help.search()&lt;/u&gt;: 查看是否有实现某种功能的函数。等价于&lt;u&gt;?? 加函数名&lt;/u&gt;。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;help(package=&amp;quot;…&amp;quot;)&lt;/u&gt;: 查阅特定包的信息。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;RSiteSearch()&lt;/u&gt;: 可以使用关键词来搜索在线的帮助文档和邮件列表存档。&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;apropos()&lt;/u&gt;: 以局部匹配的方式进行关键词搜索，即返回名称中含有某个关键词的所有对象。&lt;/p&gt;
-&lt;h3 id=&#34;2-基础包和扩展包&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-基础包和扩展包&#34;&gt;#&lt;/a&gt; &lt;strong&gt;2、基础包和扩展包&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;1）、随着 R 语言一起安装的、用于执行各种统计或制图等基本功能的程式包，称为基础包（标准包）。&lt;/p&gt;
-&lt;p&gt;主要的基础包：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;基础包&lt;/th&gt;
-&lt;th&gt;功能&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;base&lt;/td&gt;
-&lt;td&gt;提供各类基础函数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;datasets&lt;/td&gt;
-&lt;td&gt;提供各种示例数据集&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;graphics&lt;/td&gt;
-&lt;td&gt;提供各种基础绘图函数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;grDevices&lt;/td&gt;
-&lt;td&gt;提供基础或者 grid 图形设备&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;methods&lt;/td&gt;
-&lt;td&gt;用于 R 对象或者编程工具的方法和类的定义&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;utils&lt;/td&gt;
-&lt;td&gt;提供 R 语言工具函数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;stats&lt;/td&gt;
-&lt;td&gt;提供常用统计函数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;2）、除了基础包以外，基于 R 语言的来源特性，各个领域的专家和使用者编写了大量扩展性的软件包，简称为扩展包（捐献包）。&lt;/p&gt;
-&lt;h3 id=&#34;常用命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用命令&#34;&gt;#&lt;/a&gt; &lt;strong&gt;常用命令&lt;/strong&gt;&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;命令&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;功能&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;setwd()&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;查看当前目录&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;setwd()&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;设置目录&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;install.package()&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;安装包&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;library () 或 require ()&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;加载包&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;.packages(all.available=TRUE)&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;查看本地安装的所有包&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;demo(package=.packages(all.available=TRUE))&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;查看所有包中可供演示的部分&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;3-变量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-变量&#34;&gt;#&lt;/a&gt; &lt;strong&gt;3、变量&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;R 语言的变量名称由字母、数字以及 ** &lt;code&gt;.&lt;/code&gt; ** 或者下划线 &lt;code&gt;_&lt;/code&gt; 组成。&lt;/p&gt;
-&lt;p&gt;变量名称以字母或者 &lt;code&gt;.&lt;/code&gt;  开头。  &lt;code&gt;.&lt;/code&gt;  号开头后面不能跟着数字。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
