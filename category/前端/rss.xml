@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;前端&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
+        <lastBuildDate>Sun, 12 Apr 2020 20:46:25 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/</guid>
+            <title>第一天：了解网页</title>
+            <link>http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/</link>
+            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;了解网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#了解网页&#34;&gt;#&lt;/a&gt; 了解网页&lt;/h1&gt;
+&lt;h2 id=&#34;静态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#静态网页&#34;&gt;#&lt;/a&gt; 静态网页&lt;/h2&gt;
+&lt;h2 id=&#34;动态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动态网页&#34;&gt;#&lt;/a&gt; 动态网页&lt;/h2&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
