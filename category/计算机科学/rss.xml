@@ -8,6 +8,91 @@
         <pubDate>Thu, 15 Jul 2021 18:23:23 +0800</pubDate>
         <lastBuildDate>Thu, 15 Jul 2021 18:23:23 +0800</lastBuildDate>
         <item>
+            <guid isPermalink="true">http://example.com/2021/07/15/computer-science/java/Java-HelloWorld/</guid>
+            <title>Java-HelloWorld</title>
+            <link>http://example.com/2021/07/15/computer-science/java/Java-HelloWorld/</link>
+            <pubDate>Thu, 15 Jul 2021 18:23:23 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;font-color7b68eehelloworldfont&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#font-color7b68eehelloworldfont&#34;&gt;#&lt;/a&gt; &lt;font color=&#34;#7B68EE&#34;&gt;HelloWorld&lt;/font&gt;&lt;/h1&gt;
+&lt;p&gt;开发 java 程序步骤：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;编写程序&lt;br&gt;
+编译程序&lt;br&gt;
+运行程序&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt; &lt;code&gt;常用dos命令&lt;/code&gt; &lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在开发 java 程序的过程中，需要在 dos 命令窗口执行命令对源程序进行编译，因此我们需要了解基本的 dos 命令。&lt;br&gt;
+&lt;a href=&#34;https://imgtu.com/i/WElAr4&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/13/WElAr4.md.png&#34; alt=&#34;WElAr4.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt; &lt;code&gt;编写程序&lt;/code&gt; &lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;新建一个.java 文件，用记事本打开，写入以下代码：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;class&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;HelloWorld&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(String[] args)&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        System.out.println(&lt;span class=&#34;string&#34;&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt; &lt;code&gt;编译源程序&lt;/code&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;win+R&lt;/code&gt;  键入  &lt;code&gt;cmd&lt;/code&gt;  进入 dos 命令操作窗口。&lt;br&gt;
+ &lt;code&gt;javac HelloWorld.java&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;编译结束后会出现一个.class 文件，是字节码文件。&lt;br&gt;
+&lt;a href=&#34;https://imgtu.com/i/WE1Z6S&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/13/WE1Z6S.md.jpg&#34; alt=&#34;WE1Z6S.md.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt; &lt;code&gt;执行程序&lt;/code&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java HelloWorld&lt;/code&gt; &lt;br&gt;
+ 将该字节码文件通过 JVM 解释给计算机并执行。&lt;br&gt;
+&lt;a href=&#34;https://imgtu.com/i/WE1a79&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/13/WE1a79.png&#34; alt=&#34;WE1a79.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;#40E0D0&#34;&gt;源码解析&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;（1） &lt;code&gt;public&lt;/code&gt;  修饰符用于限定类或类成员的访问级别。&lt;br&gt;
+（2） &lt;code&gt;class&lt;/code&gt;  关键字用于定义类，该类的标识符 是 HelloWorld。&lt;br&gt;
+（3）HelloWorld 类被 public 修饰，应在名为 HelloWorld.java 的文件中声明。&lt;br&gt;
+（5）类标识符后紧跟一对大括号，类成员一般定义在这对大括号中，例如实例成员或者静态成员。&lt;br&gt;
+（6） &lt;code&gt;static&lt;/code&gt;  关键字用于声明静态成员，这里定义的是一个静态函数，标识符是 main。&lt;br&gt;
+（7） &lt;code&gt;函数标识符&lt;/code&gt; 的命名一般采用 &lt;code&gt;驼峰命令法&lt;/code&gt; 。&lt;br&gt;
+（8） &lt;code&gt;void&lt;/code&gt;  关键字用于定义无返回值的函数。&lt;br&gt;
+（9） &lt;code&gt;main函数&lt;/code&gt; 是 Java 程序的主 &lt;code&gt;入口函数&lt;/code&gt; 。&lt;br&gt;
+（10）函数标识符后紧跟一对小括号， &lt;code&gt;形式参数&lt;/code&gt; 一般定义在这对小括号中，这些形式参数在程序运行时可用于接受来自外部传入的实际参数。&lt;br&gt;
+（11） &lt;code&gt;String&lt;/code&gt;  关键字用于定义字符串类型的变量。&lt;br&gt;
+（12） &lt;code&gt;String[]&lt;/code&gt;  用于定义字符串类型的数组，该数组的标识符是 args。&lt;br&gt;
+（13）该源程序中的 main 函数的 &lt;code&gt;函数签名&lt;/code&gt; 是： &lt;code&gt;public static void main(String[] args)&lt;/code&gt; &lt;br&gt;
+（14）在函数签名后紧跟一堆大括号，代码块一般定义在这对大括号中，大括号（包括大括号本身）内的所有代码的集合被称之为 &lt;code&gt;函数体&lt;/code&gt; 。&lt;br&gt;
+（15）一个完整的 &lt;code&gt;函数成员&lt;/code&gt; 是由函数签名和函数体组成。&lt;br&gt;
+（16） &lt;code&gt;System&lt;/code&gt;  是来自 java.lang 包下的一个类。&lt;br&gt;
+（17） &lt;code&gt;out&lt;/code&gt;  是 System 类中的一个静态成员，它是 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2phdmEuaW8=&#34;&gt;java.io&lt;/span&gt; 包下 PrintStream 类的实例。&lt;br&gt;
+（18） &lt;code&gt;println&lt;/code&gt;  是 out 提供的一个实例成员，而且是函数成员。&lt;br&gt;
+（19）访问静态成员的语法是  &lt;code&gt;类名.成员名&lt;/code&gt; ，访问实例成员的语法是  &lt;code&gt;实例名.成员名&lt;/code&gt; 。&lt;br&gt;
+（20）在代码中 &lt;code&gt;调用一个函数&lt;/code&gt; 时需要在该函数名后跟一对小括号，如果该函数需要传递参数，则将对应的实际参数按类型和顺序写到小括号中，并使用英文逗号隔开即可。&lt;br&gt;
+（21）定义 &lt;code&gt;字符串的字面量&lt;/code&gt; 是直接将字符串写在双引号中，例如 “Hello World!”。&lt;br&gt;
+（22） &lt;code&gt;分号&lt;/code&gt; 代表一行或者一段代码的结束。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;font color=&#34;#40E0D0&#34;&gt;Java11 新特性&lt;/font&gt;：编译运行一步到位： &lt;code&gt;java HelloWorld.java&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;#40E0D0&#34;&gt;执行程序过程中可能遇到的问题&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;1&amp;gt; 文件扩展名修改失败。原因很可能是你没有显示出扩展名。&lt;br&gt;
+&lt;font color=&#34;green&#34;&gt;解决办法：&lt;/font&gt;  显示文件的扩展名，然后再修改。&lt;br&gt;
+&lt;a href=&#34;https://imgtu.com/i/WE3H8x&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/13/WE3H8x.md.png&#34; alt=&#34;WE3H8x.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;2&amp;gt; 编码问题。&lt;br&gt;
+&lt;a href=&#34;https://imgtu.com/i/WE8yee&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/13/WE8yee.png&#34; alt=&#34;WE8yee.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;font color=&#34;green&#34;&gt;解决办法：&lt;/font&gt;一个方法是，可以将文件另存为，同时设置编码格式为 utf-8。&lt;br&gt;
+另一个方法是，在编译时指定编码格式  &lt;code&gt;javac HelloWorld -encodeing utf-8&lt;/code&gt; 。&lt;br&gt;
+&lt;a href=&#34;https://imgtu.com/i/WEGltA&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/13/WEGltA.md.png&#34; alt=&#34;WEGltA.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">http://example.com/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/</guid>
             <title>Java-初遇</title>
             <link>http://example.com/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/</link>
@@ -147,249 +232,6 @@ java 程序执行过程，大致分为两步：&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/algorithm/hello-world/</guid>
-            <title>Hello World</title>
-            <link>http://example.com/2020/04/12/computer-science/algorithm/hello-world/</link>
-            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/</guid>
-            <title>第一天：了解网页</title>
-            <link>http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/</link>
-            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;了解网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#了解网页&#34;&gt;#&lt;/a&gt; 了解网页&lt;/h1&gt;
-&lt;h2 id=&#34;静态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#静态网页&#34;&gt;#&lt;/a&gt; 静态网页&lt;/h2&gt;
-&lt;h2 id=&#34;动态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动态网页&#34;&gt;#&lt;/a&gt; 动态网页&lt;/h2&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/algorithm/%E6%8E%92%E5%BA%8F/</guid>
-            <title>常见的几种排序算法</title>
-            <link>http://example.com/2020/04/12/computer-science/algorithm/%E6%8E%92%E5%BA%8F/</link>
-            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;排序&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#排序&#34;&gt;#&lt;/a&gt; 排序&lt;/h1&gt;
-&lt;p&gt;排序算法是数据结构中最基本的算法之一。&lt;/p&gt;
-&lt;p&gt;排序算法可以分为&lt;strong&gt;内部排序和外部排序。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;内部排序是数据记录在内存中进行排序。二外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;F:%5CPictures%5C%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%5C1342514529_5795.jpg&#34; alt&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://pic1.zhimg.com/80/v2-f50f588e8c546bb649b78f8ccc20689c_720w.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20181108191001927.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Rjcm1n,size_16,color_FFFFFF,t_70&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-&lt;p&gt;时间复杂度 **&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;平方阶 (O (n2)) 排序 各类简单排序：直接插入、直接选择和冒泡排序。&lt;/li&gt;
-&lt;li&gt;线性对数阶 (O (nlog2n)) 排序 快速排序、堆排序和归并排序；&lt;/li&gt;
-&lt;li&gt;O (n1+§)) 排序，§ 是介于 0 和 1 之间的常数。 希尔排序&lt;/li&gt;
-&lt;li&gt;线性阶 (O (n)) 排序 基数排序，此外还有桶、箱排序。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;稳定性&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;稳定的排序算法：冒泡排序、插入排序、归并排序和基数排序。&lt;/li&gt;
-&lt;li&gt;不是稳定的排序算法：选择排序、快速排序、希尔排序、堆排序。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;冒泡排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;思想：冒泡排序是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢 “浮” 到数列的顶端。&lt;/li&gt;
-&lt;li&gt;动画演示：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/2019030515082371.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;BubbleSort&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; arr[])&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;i &amp;lt; (&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr)/&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;]))&lt;span class=&#34;number&#34;&gt;-1&lt;/span&gt; ;i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; j = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;j &amp;lt; (&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr)/&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;])) &lt;span class=&#34;number&#34;&gt;-1&lt;/span&gt;- i;j++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (arr[j]&amp;gt;arr[j+&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;]) &amp;#123;&lt;span class=&#34;comment&#34;&gt;//相邻元素比较&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; tepm = arr[j];&lt;span class=&#34;comment&#34;&gt;// 两两交换&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				arr[j] = arr[j+&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				arr[j + &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;] = tepm;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;选择排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想： 选择排序是每一次从待排序的数据元素中选出最小的一个元素，存放在序列的起始位置，直到全部待排序的数据元素排完。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/2019030515170010.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;SelectSort&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; arr[])&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;i &amp;lt;(&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr)/&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;])) &lt;span class=&#34;number&#34;&gt;-1&lt;/span&gt;;i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; k = arr[i];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;keyword&#34;&gt;int&lt;/span&gt; j = i;j &amp;lt; (&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr)/&lt;span class=&#34;keyword&#34;&gt;sizeof&lt;/span&gt;(arr[&lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;])) - &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;j++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (arr[j] &amp;lt; k) &amp;#123; &lt;span class=&#34;comment&#34;&gt;//寻找最小的数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;				k = arr[j]; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;		&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; (k &amp;lt; arr[i]) &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;			arr[i] = k;	&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;插入排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;思想：它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用 in-place 排序（即只需用到 O (1) 的额外空间的排序），因而在从后向前扫描过程中，需要反复把已排序元素逐步向后挪位，为最新元素提供插入空间。&lt;/li&gt;
-&lt;li&gt;动画演示：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305152332174.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;希尔排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想：希尔排序也是一种插入排序，它是简单插入排序经过改进之后的一个更高效的版本，也称为缩小增量排序，同时该算法是冲破 O (n2）的第一批算法之一。它与插入排序的不同之处在于，它会优先比较距离较远的元素。&lt;/p&gt;
-&lt;p&gt;希尔排序是把记录按下表的一定增量分组，对每组使用直接插入排序算法排序；随着增量逐渐减少，每组包含的关键词越来越多，当增量减至 1 时，整个文件恰被分成一组，算法便终止。&lt;br&gt;
-&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305152953904.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01MY29uZ2NvbmdBSQ==,size_16,color_FFFFFF,t_70&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305153045812.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;归并排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想：该算法是采用&lt;strong&gt;分治法&lt;/strong&gt;（Divide and Conquer）的一个非常典型的应用。将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。若将两个有序表合并成一个有序表，称为 2 - 路归并。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305154824659.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;快速排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想：通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序。&lt;/p&gt;
-&lt;p&gt;快速排序使用&lt;strong&gt;分治法&lt;/strong&gt;来把一个串（list）分为两个子串（sub-lists）。具体算法描述如下：&lt;/p&gt;
-&lt;p&gt;从数列中挑出一个元素，称为 “基准”（pivot），即枢纽元；&lt;/p&gt;
-&lt;p&gt;重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边），在这个分区退出之后，该基准就处于数列的中间位置，称为分区（partition）操作；&lt;/p&gt;
-&lt;p&gt;递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305155529277.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;堆排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想：堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。&lt;br&gt;
-源于优先级序列：第一阶段，add 操作整体时间复杂度为 O (nlog n)；若第一阶段采用自底而上构建堆，时间复杂度为 O (n)；第二阶段 remove_min 操作整体时间复杂度为 O (nlog n)，总体时间复杂度为 O (nlog n)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;将初始待排序关键字序列 (R1,R2….Rn) 构建成大顶堆，此堆为初始的无序区；&lt;/p&gt;
-&lt;p&gt;将堆顶元素 R [1] 与最后一个元素 R [n] 交换，此时得到新的无序区 (R1,R2,……Rn-1) 和新的有序区 (Rn), 且满足 R [1,2…n-1]&amp;lt;=R [n]；&lt;/p&gt;
-&lt;p&gt;由于交换后新的堆顶 R [1] 可能违反堆的性质，因此需要对当前无序区 (R1,R2,……Rn-1) 调整为新堆，然后再次将 R [1] 与无序区最后一个元素交换，得到新的无序区 (R1,R2….Rn-2) 和新的有序区 (Rn-1,Rn)。&lt;/p&gt;
-&lt;p&gt;不断重复此过程直到有序区的元素个数为 n-1，则整个排序过程完成。不断重复此过程直到有序区的元素个数为 n-1，则整个排序过程完成。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305160256402.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;计数排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想：计数排序不是基于比较的排序算法，其核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。 作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。&lt;/p&gt;
-&lt;p&gt;计数排序 (Counting sort) 是一种稳定的排序算法。计数排序使用一个额外的数组 C，其中第 i 个元素是待排序数组 A 中值等于 i 的元素的个数。然后根据数组 C 来将 A 中的元素排到正确的位置。它只能对整数进行排序。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;找出待排序的数组中最大和最小的元素；&lt;/li&gt;
-&lt;li&gt;统计数组中每个值为 i 的元素出现的次数，存入数组 C 的第 i 项；&lt;/li&gt;
-&lt;li&gt;对所有的计数累加（从 C 中的第一个元素开始，每一项和前一项相加）；&lt;/li&gt;
-&lt;li&gt;反向填充目标数组：将每个元素 i 放在新数组的第 C (i) 项，每放一个元素就将 C (i) 减去 1&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305161505758.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;桶排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想：桶排序 (Bucket sort) 是计数排序的升级版。它利用了函数的映射关系，高效与否的关键就在于这个映射函数的确定。&lt;/p&gt;
-&lt;p&gt;工作原理：假设输入数据服从均匀分布，将数据分到有限数量的桶里，每个桶再分别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排序。&lt;/p&gt;
-&lt;p&gt;设置一个 BucketSize，作为每个桶所能放置多少个不同数值&lt;/p&gt;
-&lt;p&gt;设置一个定量的数组当作空桶；&lt;br&gt;
-遍历输入数据，并且把数据一个一个放到对应的桶里去；&lt;br&gt;
-对每个不是空的桶进行排序；&lt;br&gt;
-从不是空的桶里把排好序的数据拼接起来。&lt;br&gt;
-注意，如果递归使用桶排序为各个桶排序，则当桶数量为 1 时要手动减小 BucketSize 增加下一循环桶的数量，否则会陷入死循环，导致内存溢出。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305163056336.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;基数排序&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;思想：基数排序也是非比较的排序算法，又称卡片排序；&lt;/p&gt;
-&lt;p&gt;对每一位进行排序，从最低位开始排序，复杂度为 O (kn), n 为数组长度，k 为数组中的数的最大的位数；&lt;/p&gt;
-&lt;p&gt;基数排序是按照低位先排序，然后收集；再按照高位排序，然后再收集；依次类推，直到最高位。&lt;/p&gt;
-&lt;p&gt;有时候有些属性是有优先级顺序的，先按低优先级排序，再按高优先级排序。最后的次序就是高优先级高的在前，高优先级相同的低优先级高的在前。&lt;/p&gt;
-&lt;p&gt;基数排序基于分别排序，分别收集，所以是稳定的。&lt;/p&gt;
-&lt;p&gt;取得数组中的最大数，并取得位数；&lt;br&gt;
-arr 为原始数组，从最低位开始取每个位组成 radix 数组；&lt;br&gt;
-对 radix 进行计数排序（利用计数排序适用于小范围数的特点）；&lt;br&gt;
-MSD ：从高位开始进行排序&lt;br&gt;
- LSD ：从低位开始进行排序&lt;/p&gt;
-&lt;p&gt;对桶的使用方法上有明显&lt;strong&gt;差异&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;基数排序：根据键值的每位数字来分配桶&lt;/li&gt;
-&lt;li&gt;计数排序：每个桶只存储单一键值&lt;/li&gt;
-&lt;li&gt;桶排序：每个桶存储一定范围的数值&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;动画演示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190305163804867.gif&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代码实现：&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01MY29uZ2NvbmdBSS9hcnRpY2xlL2RldGFpbHMvODgwODEyNDQ=&#34;&gt;参考文献&lt;/span&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/</guid>
-            <title>初遇python</title>
-            <link>http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/</link>
-            <pubDate>Sun, 12 Apr 2020 20:46:25 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2020/04/12/computer-science/r/R%E8%AF%AD%E8%A8%80%EF%BC%9A%E7%AC%AC%E4%B8%80%E8%AF%BE/</guid>
