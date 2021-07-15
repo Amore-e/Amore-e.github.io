@@ -3,16 +3,147 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;计算机科学&#34; category</title>
     <link href="http://example.com" />
-    <updated>2020-04-12T12:46:25.000Z</updated>
+    <updated>2021-07-15T10:23:23.000Z</updated>
     <entry>
-        <id>http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/</id>
-        <title>第一天：了解网页</title>
-        <link rel="alternate" href="http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/"/>
-        <content type="html">&lt;h1 id=&#34;了解网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#了解网页&#34;&gt;#&lt;/a&gt; 了解网页&lt;/h1&gt;
-&lt;h2 id=&#34;静态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#静态网页&#34;&gt;#&lt;/a&gt; 静态网页&lt;/h2&gt;
-&lt;h2 id=&#34;动态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动态网页&#34;&gt;#&lt;/a&gt; 动态网页&lt;/h2&gt;
+        <id>http://example.com/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/</id>
+        <title>Java-初遇</title>
+        <link rel="alternate" href="http://example.com/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/"/>
+        <content type="html">&lt;h1 id=&#34;font-color7b68eejava-发展历程font&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#font-color7b68eejava-发展历程font&#34;&gt;#&lt;/a&gt; &lt;font color=&#34;#7B68EE&#34;&gt;Java 发展历程&lt;/font&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;1995 年， &lt;code&gt;Java 语言诞生&lt;/code&gt; ，由  &lt;code&gt;Sun&lt;/code&gt;  公司推出；&lt;/li&gt;
+&lt;li&gt;2004 年，发布  &lt;code&gt;J2SE 1.5&lt;/code&gt;  ，成为 Java 语言发展史上重要版本。&lt;/li&gt;
+&lt;li&gt;2009 年，Sun 公司被  &lt;code&gt;Oracle&lt;/code&gt;  公司收购。&lt;/li&gt;
+&lt;li&gt;2014 年，发布  &lt;code&gt;JDK 8.0&lt;/code&gt;  。&lt;/li&gt;
+&lt;li&gt;2018 年，发布 JDK 11.0 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;font-color7b68eejava-体系font&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#font-color7b68eejava-体系font&#34;&gt;#&lt;/a&gt; &lt;font color=&#34;#7B68EE&#34;&gt;Java 体系&lt;/font&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JavaSE&lt;/code&gt; ，Java 的基础和核心。允许开发和部署在桌面、服务器、嵌入式环境和实时环境中使用的 Java 应用程序。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JavaEE&lt;/code&gt; ， Java 企业版。多用于 Web 系统的服务端开发。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JavaME&lt;/code&gt; ， Java 小型版。可以用于嵌入式设备的 Java 程序开发。可以用于移动端的开发（不同于 Android 开发）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgtu.com/i/WnouzF&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/15/WnouzF.png&#34; alt=&#34;WnouzF.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;font-color7b68eejava-特性和优势font&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#font-color7b68eejava-特性和优势font&#34;&gt;#&lt;/a&gt; &lt;font color=&#34;#7B68EE&#34;&gt;Java 特性和优势&lt;/font&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;跨平台性（可移植性）&lt;/code&gt; ：跨平台性是 Java 语言的核心优势。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;面向对象&lt;/code&gt; ： Java 是一门完全面向对象的语言。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;面向对象和面向过程的区别&lt;/code&gt; ：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;面向对象具有三大特征：封装性、继承性和多态性，而面向过程没有继承性和多态性，并且面向过程的封装只是封装功能，而面向对象可以封装数据和功能。所以面向对象优势更明显。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一个经典的比喻：面向对象是盖浇饭、面向过程是蛋炒饭。&lt;br&gt;
+盖浇饭的好处就是 “菜”“饭” 分离，从而提高了制作盖浇饭的灵活性。饭不满意就换饭，菜不满意换菜。用软件工程的专业术语就是 “可维护性” 比较好，“饭” 和 “菜” 的耦合度比较低。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;健壮性&lt;/code&gt; ：归功于垃圾回收机制（GC）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高能性： &lt;code&gt;即时编译技术&lt;/code&gt; 。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;即时编译技术&lt;/code&gt; ：JVM 可判断某段字节码其是否属于 &lt;code&gt;使用频率较高&lt;/code&gt; 的热点代码。如果是，就会将字节码文件转换出的本地机器码保存，以便下次直接执行机器码文件。这使得 Java 程序的执行效率得到很大的提高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安全性：Java 的 &lt;code&gt;存储分配模型&lt;/code&gt; 是它防御恶意代码的要方法之一。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;简单性：Java 相较 C++，去掉了一些一般程序员很少使用的特征。例如:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java 不支持&lt;font color=&#34;red&#34;&gt;go to&lt;/font&gt;语句，代之以提供 break 和 continue 语句以及异常处理。&lt;/li&gt;
+&lt;li&gt;Java 还剔除了 C++ 的操作符过载&lt;font color=&#34;red&#34;&gt;(overload)&lt;/font&gt;和多继承特征，并且不使用主文件，免去了预处理程序。&lt;/li&gt;
+&lt;li&gt;因为 Java 没有结构，数组和串都是对象，所以不需要&lt;font color=&#34;red&#34;&gt;指针&lt;/font&gt;。Java 能够自动处理对象的引用和间接引用，实现自动的无用单元收集。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分布式：Java 设计成支持在网络上应用，它是分布式语言。网络变成软件应用的 &lt;code&gt;分布运载工具&lt;/code&gt; 。Java 程序只要编写一次，就可到处运行。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多线程性&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;font-color7b68eejava-两种核心机制font&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#font-color7b68eejava-两种核心机制font&#34;&gt;#&lt;/a&gt; &lt;font color=&#34;#7B68EE&#34;&gt;Java 两种核心机制&lt;/font&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JVM（Java虚拟机）&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不同平台，JVM 不同；&lt;/li&gt;
+&lt;li&gt;一次编译，出出运行；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;垃圾回收机制（GC）&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C 语言中，是由程序员负责的。&lt;/li&gt;
+&lt;li&gt;Java 中由系统级的线程跟踪存储空间的分配情况，当 JVM 空闲时，检查并释放可以被释放的空间。&lt;/li&gt;
+&lt;li&gt;这个过程是自动的。程序员无法精确控制和干预。&lt;/li&gt;
+&lt;li&gt;程序仍然会出现内存泄漏和内存溢出的问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;font-color7b68eejdk-jre-jvmfont&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#font-color7b68eejdk-jre-jvmfont&#34;&gt;#&lt;/a&gt; &lt;font color=&#34;#7B68EE&#34;&gt;JDK、JRE、JVM&lt;/font&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JVM &lt;/code&gt; &lt;br&gt;
+JVM（Java Virtual Machine，Java 虚拟机）是整个 Java 实现跨平台的最核心的部分，负责解释并执行字节码文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JRE&lt;/code&gt; &lt;br&gt;
+JRE（Java Runtime Environment，Java 运行环境）&lt;br&gt;
+ &lt;code&gt;JRE = JVM + 核心API&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JDK&lt;/code&gt; &lt;br&gt;
+JDK（Java Development Kit，Java 开发工具包），是整个 java 的核心。&lt;br&gt;
+包括编译工具 &lt;code&gt;javac&lt;/code&gt; 、执行程序 &lt;code&gt;java&lt;/code&gt; 、文档工具 &lt;code&gt;javadoc&lt;/code&gt;  和反编译工具 &lt;code&gt;javap&lt;/code&gt;  等使用工具。&lt;br&gt;
+ &lt;code&gt;JDK = JRE + java开发工具&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgtu.com/i/WnowsH&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/15/WnowsH.png&#34; alt=&#34;WnowsH.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;font-color7b68eejava-程序工作原理font&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#font-color7b68eejava-程序工作原理font&#34;&gt;#&lt;/a&gt; &lt;font color=&#34;#7B68EE&#34;&gt;Java 程序工作原理&lt;/font&gt;&lt;/h1&gt;
+&lt;p&gt; &lt;br&gt;
+java 程序执行过程，大致分为两步：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过编译工具 &lt;code&gt;javac&lt;/code&gt;  将源码文件（.java）转换成字节码（.class）。&lt;/li&gt;
+&lt;li&gt;通过 &lt;code&gt;JVM&lt;/code&gt;  将字节码解释为机器码，进而在具体的系统平台上执行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;源码——&amp;gt;字节码&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;词汇和语法分析&lt;/code&gt; ：分析源码的执行逻辑，并将其绘制成一个抽象的语法树。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;填写符号表&lt;/code&gt; ：复杂的程序之间会相互引用，此阶段就会对这些引用关系进行一些预处理工作。（理解：用一些符号来表示各个程序之间的关系。）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;注释处理&lt;/code&gt; ：对注释进行分析和归类。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;生成字节码&lt;/code&gt; ：根据前三个阶段的结果，最终生成字节码文件。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://imgtu.com/i/Wnwran&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/15/Wnwran.png&#34; alt=&#34;Wnwran.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;字节码的解释过程&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;    java 字节码文件先后经过 &lt;code&gt;类加载器&lt;/code&gt; 、 &lt;code&gt;字节码校验器&lt;/code&gt; 、 &lt;code&gt;解释器&lt;/code&gt; 的处理后，最终在擦做系统平台上运行。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgtu.com/i/Wnws5q&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/15/Wnws5q.png&#34; alt=&#34;Wnws5q.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;类装载器&lt;/code&gt; ：其主要功能是为执行程序寻找和装载所需要的类（把字节码文件装到 java 虚拟机中。）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;字节码校验器&lt;/code&gt; ：其功能是对字节码文件进行校验，保证代码的 &lt;code&gt;安全性&lt;/code&gt; 。负责测试代码段落格式并进行检查，检查伪造指针、违反对象访问权限或是试图改变对象类型的非法代码。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;解释器&lt;/code&gt; ：具体的平台并不认识字节码文件，最终起作用的还是这个最重要的解释器，它负责将字节码文件 &lt;code&gt;翻译&lt;/code&gt; 成所在平台的能识别的东西。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
-        <updated>2020-04-12T12:46:25.000Z</updated>
+        <updated>2021-07-15T10:23:23.000Z</updated>
     </entry>
     <entry>
         <id>http://example.com/2020/04/12/computer-science/algorithm/hello-world/</id>
@@ -36,17 +167,13 @@
         <updated>2020-04-12T12:46:25.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2020/04/12/computer-science/java/%E5%88%9D%E9%81%87java/</id>
-        <title>初遇java</title>
-        <link rel="alternate" href="http://example.com/2020/04/12/computer-science/java/%E5%88%9D%E9%81%87java/"/>
-        <content type="html"></content>
-        <updated>2020-04-12T12:46:25.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/</id>
-        <title>初遇python</title>
-        <link rel="alternate" href="http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/"/>
-        <content type="html"></content>
+        <id>http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/</id>
+        <title>第一天：了解网页</title>
+        <link rel="alternate" href="http://example.com/2020/04/12/computer-science/front-end/%E7%AC%AC%E4%B8%80%E5%A4%A9%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%BD%91%E9%A1%B5/"/>
+        <content type="html">&lt;h1 id=&#34;了解网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#了解网页&#34;&gt;#&lt;/a&gt; 了解网页&lt;/h1&gt;
+&lt;h2 id=&#34;静态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#静态网页&#34;&gt;#&lt;/a&gt; 静态网页&lt;/h2&gt;
+&lt;h2 id=&#34;动态网页&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#动态网页&#34;&gt;#&lt;/a&gt; 动态网页&lt;/h2&gt;
+</content>
         <updated>2020-04-12T12:46:25.000Z</updated>
     </entry>
     <entry>
@@ -252,6 +379,13 @@ MSD ：从高位开始进行排序&lt;br&gt;
 &lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01MY29uZ2NvbmdBSS9hcnRpY2xlL2RldGFpbHMvODgwODEyNDQ=&#34;&gt;参考文献&lt;/span&gt;&lt;/p&gt;
 </content>
+        <updated>2020-04-12T12:46:25.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/</id>
+        <title>初遇python</title>
+        <link rel="alternate" href="http://example.com/2020/04/12/computer-science/python/%E5%88%9D%E9%81%87python/"/>
+        <content type="html"></content>
         <updated>2020-04-12T12:46:25.000Z</updated>
     </entry>
     <entry>
