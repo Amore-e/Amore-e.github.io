@@ -31,7 +31,7 @@
 
 
   <title>
-Java-基础语法 - Java - 计算机科学 |
+Java-流程控制 - Java - 计算机科学 |
 月华如练兮 = Hexo</title>
 <meta name="generator" content="Hexo 5.1.1"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -59,7 +59,7 @@ Java-基础语法 - Java - 计算机科学 |
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">Java-基础语法
+  <h1 itemprop="name headline">Java-流程控制
   </h1>
   
 <div class="meta">
@@ -101,12 +101,12 @@ Java-基础语法 - Java - 计算机科学 |
       </div>
       <div id="imgs" class="pjax">
         <ul>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi72f02kj30u014wte4.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7f8f8rj312p0u0q9b.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7bygrzj30u010wni3.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/006Idzc3ly1gisi7e2kxsj30u013qgo8.jpg"></li>
           <li class="item" data-background-image="https://tva1.sinaimg.cn/large/006Idzc3ly1gisi77jx7rj30u013zgxc.jpg"></li>
           <li class="item" data-background-image="https://tva3.sinaimg.cn/large/006Idzc3ly1gisi6ytgz1j30u010077b.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7f8f8rj312p0u0q9b.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi718graj30rs1fv79z.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7e2kxsj30u013qgo8.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi72f02kj30u014wte4.jpg"></li>
         </ul>
       </div>
     </header>
@@ -170,8 +170,8 @@ Java-基础语法 - Java - 计算机科学 |
 <li>常用的代码编辑器，针对关键字有特殊的颜色标记，非常直观。<br>
  </li>
 </ul>
-<hr>
 <h3 id="标识符"><a class="markdownIt-Anchor" href="#标识符">#</a> <strong> <code>标识符</code> </strong></h3>
+<hr>
 <p>凡是在 java 中需要由我们命名的类名、方法名、变量名、接口名、常量名等成为 <code>标识符</code> 。</p>
 <p><strong>标识符的命名规则</strong></p>
 <ul>
@@ -282,33 +282,124 @@ Java-基础语法 - Java - 计算机科学 |
 <hr>
 <ul>
 <li>
-<p>二进制，是计算技术中广泛采用的一种数制。<br>
+<p>二进制， <code>基数为2</code> ，进位规则是 <code>“逢二进一”</code> 。<br>
 二进制数据是用 <code>0</code>  和 <code>1</code>  两个数码来表示的数。<br>
-它的 <code>基数为2</code> ，进位规则是 <code>“逢二进一”</code> 。<br>
+java 中，二进制数以 0b 或 0B 开头。<br>
 数字计算机只能识别和处理由‘0’、‘1’符号串组成的代码，其运算模式是二进制。</p>
 </li>
 <li>
 <p>八进制， <code>基数为8</code> ，进位规则是 <code>“逢八进一”</code> 。<br>
-八进制数据是由 <code>0-7</code>  八个数码表示的数。</p>
+八进制数据是由 <code>0-7</code>  八个数码表示的数。<br>
+java 中，二进制数以 0 开头。</p>
 </li>
 <li>
 <p>十六进制， <code>基数为16</code> ，进位规则是 <code>“逢十六进一”</code> 。<br>
-十六进制数据是用 <code>0-9</code>  和 <code>A-F(a-f)</code>  十六个数码来表示的数据。</p>
+十六进制数据是用 <code>0-9</code>  和 <code>A-F(a-f)</code>  十六个数码来表示的数据。<br>
+java 中，二进制数以 0x 或 0X 开头。</p>
 </li>
+</ul>
+<p><code>十进制与二进制的转换</code></p>
+<ul>
+<li>十进制转换成二进制：&quot;除 2 取余，逆序排列&quot; 法。</li>
+<li>二进制转换成十进制：使用权相加法。</li>
+</ul>
+<p><code>二进制与八进制的转换</code></p>
+<ul>
+<li>二进制转换成八进制：从右往左每 3 位按二进制转十进制的方式转换。</li>
+<li>八进制转换成二进制：每个数按十进制转二进制的方式转换为 3 位二进制，不足时补齐。</li>
+</ul>
+<p><code>二进制与十六进制的转换</code></p>
+<ul>
+<li>二进制转换成十六进制：从右往左每 4 位按二进制转十进制的方式转换。</li>
+<li>十六进制转换成二进制：每个数按十进制转二进制的方式转换为 4 位二进制，不足时补齐。</li>
 </ul>
 <h3 id="计算机存储单元"><a class="markdownIt-Anchor" href="#计算机存储单元">#</a> <strong> <code>计算机存储单元</code> </strong></h3>
 <hr>
+<p>计算机可以用来存储数据，无论内存还是硬盘，计算机存储设备的最小信息单元叫 “位（bit）”, 又称 “比特位”，通常小写字母 b 表示。而计算机中的基本存储单元叫 “字节（byte）”，通常用大写字母 “B” 表示，字节是由连续的 8 个位组成的。</p>
+<p>1 B = 8bit    1KB = 1024B<br>
+1MB = 1024KB  1GB = 1024MB<br>
+1TB = 1024GB</p>
 <h3 id="数据类型-2"><a class="markdownIt-Anchor" href="#数据类型-2">#</a> <strong> <code>数据类型</code> </strong></h3>
 <hr>
-<p>java 是强类型语言。</p>
+<p>java 是强类型语言。对于每一种数据都给出了明确的数据类型，不同数据类型也分配了不同的存储空间，所以他们表示的数据大小也是不一样的。<br>
+java 的两大数据类型：</p>
+<ul>
+<li>内置数据类型</li>
+<li>引用数据类型</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/WVSJRP"><img data-src="https://z3.ax1x.com/2021/07/14/WVSJRP.jpg" alt="WVSJRP.jpg"></a></p>
+<p>对比 C 语言的数据类型，进行学习。<br>
+<a target="_blank" rel="noopener" href="https://imgtu.com/i/WV9HbD"><img data-src="https://z3.ax1x.com/2021/07/14/WV9HbD.jpg" alt="WV9HbD.jpg"></a></p>
+<p>java 语言提供了 8 种基本数据类型。包括六中数字类型（四个整数型，两个浮点型），一种字符型，还有一种布尔类型。</p>
+<p>各个数据类型占用内存和取值范围，如表所示。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/WM5RRf"><img data-src="https://z3.ax1x.com/2021/07/16/WM5RRf.png" alt="WM5RRf.png"></a></p>
+<p><code>注意：</code> 在 java 中整数默认数据类型时 int，浮点数的默认数据类型是 double。</p>
+<blockquote>
+<p><span class="exturl" data-url="aHR0cDovL3d3dy5pdGhlaW1hLmNvbS9uZXdzLzIwMjAwMTE2LzEwMzQzNi5odG1s">取值范围的推理过程参考</span></p>
+</blockquote>
+<h3 id="整型"><a class="markdownIt-Anchor" href="#整型">#</a> <strong> <code>整型</code> </strong></h3>
+<hr>
+<ul>
+<li>byte、short、int、long。</li>
+<li>java 各个整数类型取值范围和字段长度，不受操作系统的影响，以保证 java 程序的可移植性。</li>
+<li>java 的整型常量默认为 int 型，声明 long 型变量必须在其后加‘l’或‘L’。</li>
+<li>java 程序中变量通常声明为 int 类型，除非不足以表示较大的数，才使用 long 类型。</li>
+</ul>
+<h3 id="浮点型"><a class="markdownIt-Anchor" href="#浮点型">#</a> <strong> <code>浮点型</code> </strong></h3>
+<hr>
+<ul>
+<li>十进制数形式：形如：5.12、6.430f、.67 (必须有小数点)。</li>
+<li>科学计数形式：形如：5.12e2、6.87E3、7896e-6</li>
+<li>float, 单精度，可以精确到 7 位有效数字。</li>
+<li>double，双精度，精度是 float 的两倍。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">float</span> f = <span class="number">3.14F</span>; <span class="comment">//浮点数默认的类型是double  当我们想要表示一个float类型的浮点数的时候   此时我们就需要在数值后边加上一个F或者f</span></span><br><span class="line"><span class="keyword">double</span>  d = <span class="number">3.14D</span>;</span><br><span class="line"><span class="keyword">float</span>  f1 = <span class="number">0.1f</span>;</span><br><span class="line"><span class="keyword">double</span> d1 = <span class="number">1.0</span>/<span class="number">10</span>;</span><br><span class="line">System.out.println(f1 == d1);<span class="comment">//false</span></span><br><span class="line"><span class="keyword">float</span> f2 = <span class="number">42323442F</span>;</span><br><span class="line"><span class="keyword">float</span> f3 = f2 +<span class="number">1</span>;</span><br><span class="line">System.out.println(f2==f3);<span class="comment">//true</span></span><br></pre></td></tr></table></figure>
+<p>以上代码中，由于受到 <code>长度</code> 和 <code>精度</code> 的限制， <code>无法精确的表示一些浮点数</code> ，只是近似的等于。因此在以后的开发中，当我们在遇到需要精确表示小数的时候 特别是金融方面的时候，千万不要直接使用 float 和 double 去表示。</p>
+<h3 id="字符型"><a class="markdownIt-Anchor" href="#字符型">#</a> <strong> <code>字符型</code> </strong></h3>
+<hr>
+<ul>
+<li>java 中的所有字符都是使用 Unicode 编码。一个字符可以存储一个字母，可以存储 <code>一个</code> 汉字，还可以存储其他字符。</li>
+<li>字符的表示形式：</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"> <span class="comment">//字符的第一种表示形式  使用单引号引起来的</span></span><br><span class="line"><span class="keyword">char</span>  c1 =<span class="string">&#x27;1&#x27;</span>;</span><br><span class="line"><span class="keyword">char</span>  c2 = <span class="string">&#x27;中&#x27;</span>;</span><br><span class="line"><span class="keyword">char</span> c3 = <span class="string">&#x27;a&#x27;</span>;</span><br><span class="line"><span class="keyword">char</span> c4 = <span class="string">&#x27;&amp;&#x27;</span>;</span><br><span class="line"><span class="comment">//转义字符</span></span><br><span class="line"> <span class="keyword">char</span>  c5= <span class="string">&#x27;\t&#x27;</span>;<span class="comment">//制表符</span></span><br><span class="line"> <span class="keyword">char</span> c6=<span class="string">&#x27;\r&#x27;</span>;<span class="comment">//回车</span></span><br><span class="line"> <span class="keyword">char</span> c7 = <span class="string">&#x27;\n&#x27;</span>;<span class="comment">//换行</span></span><br><span class="line"> <span class="comment">//常量表示   直接使用unicoide值进行表示</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="布尔类型"><a class="markdownIt-Anchor" href="#布尔类型">#</a> <strong> <code>布尔类型</code> </strong></h3>
+<hr>
+<ul>
+<li>boolean 表示的是逻辑值，只有两个值：true 和 false。</li>
+</ul>
+<h3 id="字符串类型"><a class="markdownIt-Anchor" href="#字符串类型">#</a> <strong> <code>字符串类型</code> </strong></h3>
+<hr>
+<ul>
+<li>字符串类型不属于基本数据类型，属于引用数据类型。</li>
+<li>字符串是由 <code>双引号</code> 引起来的多个字符的组合序列。</li>
+<li>字符串的默认值是 null。</li>
+</ul>
 <blockquote>
 <h2 id="数据类型转换"><a class="markdownIt-Anchor" href="#数据类型转换">#</a> 数据类型转换</h2>
 </blockquote>
+<p>数据类型转换分为：</p>
+<ul>
+<li>自动类型转换</li>
+<li>强制类型转换</li>
+</ul>
+<h3 id="自动类型转换"><a class="markdownIt-Anchor" href="#自动类型转换">#</a> <strong> <code>自动类型转换</code> </strong></h3>
+<hr>
+<p>自动类型转换：把一个数据类型范围小的数值或者变量赋值给一个数据类型范围大的变量。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">  <span class="comment">//完成了数据类型的转换  将int类型转换为了double</span></span><br><span class="line"><span class="keyword">double</span>  d  = <span class="number">100</span>;<span class="comment">// 100 这个数值单独来说他是属于int类型   但是当我们完成赋值操作之后 此时保存在d这个变量中的数据就是double  自动类型转换</span></span><br><span class="line"><span class="keyword">byte</span>  b = <span class="number">100</span>;<span class="comment">// byte -128--127</span></span><br><span class="line"><span class="keyword">int</span> i= b;<span class="comment">//  将byte转换为了int   有小范围到大范围 自动类型转换</span></span><br><span class="line">i = <span class="number">200</span>;</span><br><span class="line">b = (<span class="keyword">byte</span>)i;<span class="comment">//强制转换  转换是存在一定的风险的   会造成数据的损失</span></span><br><span class="line">System.out.println(b);</span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/WMO4yt"><img data-src="https://z3.ax1x.com/2021/07/16/WMO4yt.png" alt="WMO4yt.png"></a></p>
+<p>上图从左到右可以进行自动类型转换。</p>
+<h3 id="强制类型转换"><a class="markdownIt-Anchor" href="#强制类型转换">#</a> <strong> <code>强制类型转换</code> </strong></h3>
+<hr>
+<p>强制类型转换：把一个数据类型范围大的数值或者变量赋值给另一个数据类型范围小的变量。<br>
+当把大范围的数据强制转换为小范围的数据的时候 <code>保留低位,舍弃高位</code> 。</p>
+<p><code>数据类型  变量  = （目标类型） 变量/数据；</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">		</span><br><span class="line"><span class="keyword">byte</span>  b1 = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">byte</span>  b2 =<span class="number">20</span>;</span><br><span class="line"><span class="keyword">byte</span> b3 = (<span class="keyword">byte</span>) (b1 + b2);<span class="comment">// 在进行算术运算时  会默认自动将整数转换为int类型 在计算结果   结果就是一个int类型  此时如果要将b1 + b2的结果赋值给b3  则需要强制转换</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <h2 id="运算符"><a class="markdownIt-Anchor" href="#运算符">#</a> 运算符</h2>
 </blockquote>
-<p>运算符：<br>
-表达式：</p>
+<p>运算符：对常量或者变量进行操作的符号。<br>
+表达式：用运算符把常量或者变量连接起来的符合 java 语法的字符串，称为表达式。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">    </span><br><span class="line"><span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> b = <span class="number">20</span>;</span><br><span class="line"><span class="comment">//int c = a + b ;</span></span><br><span class="line"><span class="keyword">int</span> c;</span><br><span class="line">c  = a + b;<span class="comment">//表达式   类型  将a+b的结果赋值给c</span></span><br></pre></td></tr></table></figure>
 <p>java 提供的运算符分为以下几类：</p>
 <pre><code>算数运算符
 关系运算符
@@ -320,79 +411,153 @@ Java-基础语法 - Java - 计算机科学 |
 <h3 id="算数运算"><a class="markdownIt-Anchor" href="#算数运算">#</a> <strong> <code>算数运算</code> </strong></h3>
 <hr>
 <p>算数运算符包括加法（+）、减法（-）、乘法（*）、除法（/）、取余（%）、自增（++）、自减（–）。</p>
+<p><font color = red>注意：</font>  除法运算结果是两数相除取整。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//算术运算</span></span><br><span class="line"><span class="keyword">int</span>  aa =   <span class="number">15</span>;</span><br><span class="line"><span class="keyword">int</span> bb = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">int</span> dd = aa / bb;<span class="comment">//商</span></span><br><span class="line"><span class="keyword">int</span> ee = aa % bb;<span class="comment">//余数   取余运算</span></span><br><span class="line">System.out.println(dd);</span><br><span class="line">System.out.println(ee);</span><br></pre></td></tr></table></figure>
 <ul>
-<li>
-<p><font color = red>注意：</font>除法运算结果是两数相除取整。<br>
-自增（减）运算， <code>a++;a--;</code>  表示先运算再自增 (减) 1。<br>
- <code>++a;--a;</code>  表示先自增（减）1，再进行运算。</p>
-</li>
-<li>
-<p>整数运算</p>
+<li>自增（减）运算
 <ul>
-<li>byte、short、int 类型的数据之间进行运算，结果均为 int 类型。</li>
-<li>任意操作数为 long 类型，则结果必为 long 类型。</li>
+<li><code>a++;a--;</code>  表示先运算再自增 (减) 1。</li>
+<li><code>++a;--a;</code>  表示先自增（减）1，再进行运算。</li>
 </ul>
 </li>
-<li>
-<p>浮点运算</p>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 自增自减</span></span><br><span class="line">  <span class="keyword">int</span>  a2 = <span class="number">11</span>;</span><br><span class="line">  a2--;<span class="comment">//先取值 后运算</span></span><br><span class="line">  System.out.println(a2);<span class="comment">// 10</span></span><br><span class="line">  --a2;<span class="comment">// 先运算  后取值</span></span><br><span class="line">  System.out.println(a2);<span class="comment">//9 </span></span><br></pre></td></tr></table></figure>
+<p>单独使用的时候，++ 和 -- 无论放在变量的左边或者右边 ，结果都是一样的。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//自增自减</span></span><br><span class="line">       <span class="keyword">int</span>  a2 = <span class="number">11</span>;</span><br><span class="line">       <span class="keyword">int</span> a3;</span><br><span class="line">       a3= a2--;<span class="comment">// 先取值（a3 = a2）  后运算（a2=a2-1）   </span></span><br><span class="line">       System.out.println(a3);<span class="comment">//a3 =11  a2 =10</span></span><br><span class="line">       a3= --a2;<span class="comment">// 先运算（a2= a2-1）a2=9  后取值 a3= a2  </span></span><br><span class="line">       System.out.println(a3);<span class="comment">//9</span></span><br></pre></td></tr></table></figure>
+<p><code>思考练习：</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//自增自减的练习</span></span><br><span class="line"><span class="keyword">int</span> x = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> y = x++ + x++ + x++;</span><br><span class="line">System.out.println(y);<span class="comment">// 10 +11 + 12 = 33</span></span><br><span class="line">System.out.println(x);<span class="comment">// 13 </span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>两个操作数都是 float 时，结果为 float 类型。</li>
-<li>任意操作数为 double 类型时，结果必为 double 类型。</li>
+<li>整数运算
+<ul>
+<li><code>byte、short、int</code>  类型的数据之间进行运算，结果均为 <code>int类型</code> 。</li>
+<li>任意操作数为 long 类型，则结果必为 <code>long类型</code> 。</li>
 </ul>
 </li>
-<li>
-<p>取模求余</p>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>   i1 = <span class="number">20</span>;</span><br><span class="line"><span class="keyword">int</span> i2 = <span class="number">30</span>;</span><br><span class="line"><span class="keyword">int</span> sum1 = i1 + i2; <span class="comment">// int</span></span><br><span class="line"><span class="keyword">byte</span>  b1 = <span class="number">3</span>;</span><br><span class="line"><span class="keyword">short</span> s1 = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">int</span> sum2 = b1 +s1 ;<span class="comment">// int</span></span><br><span class="line"><span class="keyword">long</span>  l1 = <span class="number">23L</span>;</span><br><span class="line"><span class="keyword">long</span> sum3 =  i1 + l1;<span class="comment">// long</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>浮点运算
+<ul>
+<li>两个操作数都是 float 时，结果为 <code>float类型</code> 。</li>
+<li>任意操作数为 double 类型时，结果必为 <code>double类型</code> 。</li>
+</ul>
 </li>
 </ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 浮点运算规则</span></span><br><span class="line">      <span class="keyword">float</span>  f1 = <span class="number">3.14F</span>;</span><br><span class="line">      <span class="keyword">float</span> f2 = <span class="number">2.56F</span>;</span><br><span class="line">      <span class="keyword">float</span> sumf  = f1 + f2;<span class="comment">// 如果两个操作数都是float类型 则结果可以使用float保存也可以使用double（这是类型自动转换）</span></span><br><span class="line">      System.out.println(sumf);</span><br><span class="line">      <span class="keyword">double</span> d1 = <span class="number">4.5</span>;</span><br><span class="line">      <span class="keyword">double</span> sumd = f1 + d1 ;<span class="comment">//浮点数在进行运算的时候  如果有一个操作数为double  则结果肯定为double</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>取模求余
+<ul>
+<li>浮点数也可以作取余运算。</li>
+<li>取余运算的结果为两操作数相除的余数， 余数的符号和符号与左边操作数的符号保持一致。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//取模求余运算</span></span><br><span class="line">       <span class="keyword">int</span> ss1 =  <span class="number">7</span> % <span class="number">3</span>;<span class="comment">// 1</span></span><br><span class="line">       <span class="keyword">int</span> ss2 = -<span class="number">7</span> % <span class="number">3</span>; <span class="comment">//-1</span></span><br><span class="line">       <span class="keyword">int</span> ss3 = <span class="number">7</span> % -<span class="number">3</span> ; <span class="comment">// 1</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>字符算数运算
+<ul>
+<li>char 类型参与算数运算，使用的是字符的 <code>ascii码</code> 。‘A’=97,‘a’=65,‘0’=48。</li>
+<li>算数表达式中包含 <code>多个基本数据类型</code> 的操作数的时候，整个算数表达式的 <code>类型会自动提升</code> 。</li>
+<li>提升规则：</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//字符串的操作</span></span><br><span class="line">      String  str1 = <span class="string">&quot;hello&quot;</span>;</span><br><span class="line">      <span class="keyword">int</span> aa = <span class="number">22</span>;</span><br><span class="line">      String str2 = str1 + aa;<span class="comment">// hello22</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>字符串的 “+” 操作
+<ul>
+<li>当字符串和数值型的数据进行运算时（+），此时进行的是字符串拼接，而不是算术运算。</li>
+<li>&quot;+&quot; 称为字符串拼接字符。混合拼接时是 <code>从左往右依次运算</code> 。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> String  str3 = <span class="number">1</span> + <span class="number">999</span> + <span class="string">&quot;年中国&quot;</span>;<span class="comment">// 1000年中国</span></span><br><span class="line">System.out.println(<span class="number">2000</span>+ <span class="number">20</span> +<span class="string">&quot;中国&quot;</span>+<span class="number">6</span>+<span class="number">666</span>);<span class="comment">//2020中国6666</span></span><br></pre></td></tr></table></figure>
 <h3 id="关系运算"><a class="markdownIt-Anchor" href="#关系运算">#</a> <strong> <code>关系运算</code> </strong></h3>
-<p>下表为 Java 支持的关系运算符。</p>
-<p>表格中的实例整数变量 A 的值为 10，变量 B 的值为 20：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">运算符</th>
-<th style="text-align:center">描述</th>
-<th style="text-align:left">例子</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">==</td>
-<td style="text-align:center">检查如果两个操作数的值是否相等，如果相等则条件为真。</td>
-<td style="text-align:left">（A == B）为假。</td>
-</tr>
-<tr>
-<td style="text-align:left">!=</td>
-<td style="text-align:center">检查如果两个操作数的值是否相等，如果值不相等则条件为真。</td>
-<td style="text-align:left">(A != B) 为真。</td>
-</tr>
-<tr>
-<td style="text-align:left">&gt;</td>
-<td style="text-align:center">检查左操作数的值是否大于右操作数的值，如果是那么条件为真。</td>
-<td style="text-align:left">（A&gt; B）为假。</td>
-</tr>
-<tr>
-<td style="text-align:left">&lt;</td>
-<td style="text-align:center">检查左操作数的值是否小于右操作数的值，如果是那么条件为真。</td>
-<td style="text-align:left">（A &lt;B）为真。</td>
-</tr>
-<tr>
-<td style="text-align:left">&gt;=</td>
-<td style="text-align:center">检查左操作数的值是否大于或等于右操作数的值，如果是那么条件为真。</td>
-<td style="text-align:left">（A&gt; = B）为假。</td>
-</tr>
-<tr>
-<td style="text-align:left">&lt;=</td>
-<td style="text-align:center">检查左操作数的值是否小于或等于右操作数的值，如果是那么条件为真。</td>
-<td style="text-align:left">（A &lt;= B）为真。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="位运算"><a class="markdownIt-Anchor" href="#位运算">#</a> <strong> <code>位运算</code> </strong></h3>
-<h3 id="逻辑运算"><a class="markdownIt-Anchor" href="#逻辑运算">#</a> <strong> <code>逻辑运算</code> </strong></h3>
+<hr>
+<p>为 Java 支持的关系运算符。关系运算的结果都是 <code>Boolean类型</code> 。结果只能是 true 或 false。</p>
+<p><code>== </code> 、 <code>！=</code>  、 <code>&gt;</code>  、 <code>&lt;</code>     <code>&gt;=</code>  、  <code>&lt;=</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 关系运算</span></span><br><span class="line">    <span class="keyword">int</span>  m = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">20</span>;</span><br><span class="line">    System.out.println(m==n);</span><br><span class="line">    System.out.println(m!=n);</span><br><span class="line">    System.out.println(m&gt;n);</span><br><span class="line">    System.out.println(m&lt;n);</span><br><span class="line">    System.out.println(m&gt;=n);</span><br><span class="line">    System.out.println(m&lt;=n);</span><br><span class="line">    <span class="comment">//如果在开发中，  比较的结果在后续程序中需要使用，此时我们则需要使用一个变量将比较的结果保存起来</span></span><br><span class="line">    <span class="keyword">boolean</span>  flag = m &gt; n;</span><br><span class="line">    System.out.println(flag);</span><br></pre></td></tr></table></figure>
 <h3 id="赋值运算"><a class="markdownIt-Anchor" href="#赋值运算">#</a> <strong> <code>赋值运算</code> </strong></h3>
+<hr>
+<ul>
+<li>赋值运算符： <code>=</code></li>
+<li>扩展的赋值运算符： <code>=</code> 、 <code>+=</code> 、 <code>-=</code> 、 <code>*=</code> 、 <code>/=</code></li>
+<li>扩展赋值运算符中，先进性算术运算后进行赋值，隐含着强制类型转换。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//  赋值运算符</span></span><br><span class="line">      <span class="keyword">int</span>  a1 = <span class="number">10</span>;</span><br><span class="line">      a1 += <span class="number">10</span>; <span class="comment">// a1 = a1 + 10</span></span><br><span class="line">      System.out.println(a1);</span><br><span class="line">      <span class="keyword">short</span> s1 = <span class="number">20</span>;</span><br><span class="line">      s1 = (<span class="keyword">short</span>)(s1 + <span class="number">10</span>);</span><br><span class="line">      s1 += <span class="number">10</span>;<span class="comment">// 类似于 s1 = s1 + 10  此时的扩展赋值运算符  隐含着类型的强制转换</span></span><br></pre></td></tr></table></figure>
 <h3 id="条件运算"><a class="markdownIt-Anchor" href="#条件运算">#</a> <strong> <code>条件运算</code> </strong></h3>
-<h3 id="intanceof运算"><a class="markdownIt-Anchor" href="#intanceof运算">#</a> <strong> <code>intanceof运算</code> </strong></h3>
+<hr>
+<ul>
+<li>三元运算符： <code>关系表达式 ? 表达式1： 表达式2</code></li>
+<li>运算规则：
+<ul>
+<li>计算关系表达式的值。</li>
+<li>如果关系表达式的值为 true，则结果为表达式 1 的值。</li>
+<li>如果关系表达式的值为 fasle，则结果为表达式 2 的值。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 9 三元运算符</span></span><br><span class="line">  <span class="keyword">int</span> a9 = <span class="number">10</span>;</span><br><span class="line">  <span class="keyword">int</span> a10 = <span class="number">20</span>;</span><br><span class="line">  System.out.println(a9 &gt; a10 ? a10 : a9);</span><br></pre></td></tr></table></figure>
+<h3 id="逻辑运算"><a class="markdownIt-Anchor" href="#逻辑运算">#</a> <strong> <code>逻辑运算</code> </strong></h3>
+<hr>
+<ul>
+<li>逻辑运算符：
+<ul>
+<li><code>&amp;(与)</code> : 只要有一个为 false 结果就 false。</li>
+<li><code>|(或)</code> : 只要有一个为 true 结果就 true。</li>
+<li><code>！(非)</code> : 取反。true 变 false，false 变 true。</li>
+<li><code>^(异或)</code>  : 结果不同为 true，相同为 false。</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//逻辑运算</span></span><br><span class="line">      <span class="keyword">int</span> i = <span class="number">10</span>;</span><br><span class="line">      <span class="keyword">int</span> j = <span class="number">20</span>;</span><br><span class="line">      <span class="keyword">int</span> k = <span class="number">30</span>;</span><br><span class="line">      System.out.println((i &gt; j) &amp; (i &gt;k));<span class="comment">//false</span></span><br><span class="line">      System.out.println((i &lt; j)&amp;(i &gt; k));<span class="comment">//false</span></span><br><span class="line">      System.out.println((i&gt;j) | (i &lt; k)); <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
+<h3 id="短路逻辑运算"><a class="markdownIt-Anchor" href="#短路逻辑运算">#</a> <strong> <code>短路逻辑运算</code> </strong></h3>
+<hr>
+<ul>
+<li>
+<p><code>&amp;&amp; 短路与</code>  ：作用和 &amp; 相同，但是有短路效果。</p>
+</li>
+<li>
+<p><code>|| 短路或</code>  ：作用和 | 相同，但是有短路效果。</p>
+</li>
+<li>
+<p>&amp; ，无论左边真或假 右边都会执行。</p>
+</li>
+<li>
+<p>&amp;&amp; ， 若果左边为真，右边肯定会执行。如果左边为 false 右边就不执行。</p>
+</li>
+<li>
+<p>| 无论左边为真或假，右边都是要执行。</p>
+</li>
+<li>
+<p>|| 如果左边为 true ， 右边不执行 。  如果左边为 false，此时右边才需要执行。</p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">        <span class="comment">//6 短路逻辑</span></span><br><span class="line">        <span class="keyword">int</span> p = <span class="number">3</span>;</span><br><span class="line">        <span class="keyword">int</span> c = <span class="number">4</span>;</span><br><span class="line"><span class="comment">//        System.out.println(p++ &gt;4 &amp; c++ &gt;5);</span></span><br><span class="line"><span class="comment">//        System.out.println(p+&quot;----&quot;+c);// 4 ---5</span></span><br><span class="line">        System.out.println(p++ &gt;<span class="number">4</span> &amp;&amp; c++ &gt;<span class="number">5</span>);<span class="comment">//左边为false  右边则不参与运算</span></span><br><span class="line">        System.out.println(p+<span class="string">&quot;----&quot;</span>+c);<span class="comment">//4---4</span></span><br></pre></td></tr></table></figure>
+<h3 id="位运算"><a class="markdownIt-Anchor" href="#位运算">#</a> <strong> <code>位运算</code> </strong></h3>
+<hr>
+<p>位运算指的是进行二进制位的运算。</p>
+<ul>
+<li>
+<p>位运算符：</p>
+<ul>
+<li><code>~ 取反 </code></li>
+<li><code>&amp; 按位与</code></li>
+<li><code>| 按位或</code></li>
+<li><code>^</code>  按位异或</li>
+<li><code>&lt;&lt; 左移</code> ：将整个 2 进制数据左移一位 相当与将原来的数乘 2。</li>
+<li><code>&gt;&gt; 右移 </code>  : 将整个的 2 进制右移一位  相当与将原来的数除 2。</li>
+</ul>
+</li>
+<li>
+<p>&amp; 和 |，如果两边的操作数类型是 boolean 类型，则是 <code>逻辑运算</code>  。如果两边的操作数是整数 则为 <code>位运算</code> 。</p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//7 位运算</span></span><br><span class="line">       <span class="keyword">int</span> a4 = <span class="number">5</span>;</span><br><span class="line">       <span class="keyword">int</span> a5 = <span class="number">3</span>;</span><br><span class="line">       <span class="keyword">int</span> a6=<span class="number">2</span>;</span><br><span class="line">       System.out.println(~a4);</span><br><span class="line">       System.out.println(a4 &amp; a5);</span><br><span class="line">       <span class="comment">// 使用最高效的方法   计算2的三次方</span></span><br><span class="line">       System.out.println(a6 * a6  * a6);</span><br><span class="line">       System.out.println(a6 &lt;&lt; <span class="number">2</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">    <span class="comment">//8 面试题</span></span><br><span class="line">        <span class="keyword">int</span> a7 = <span class="number">5</span>;</span><br><span class="line">        <span class="keyword">int</span> a8 = <span class="number">6</span>;</span><br><span class="line">        <span class="comment">// 需求  在不增加变量的情况下  交换两个整数</span></span><br><span class="line"><span class="comment">//        int a9 = a7;</span></span><br><span class="line"><span class="comment">//        a7 = a8;</span></span><br><span class="line"><span class="comment">//        a8 = a9;</span></span><br><span class="line"><span class="comment">//        System.out.println(a7 +&quot;-------&quot;+ a8);</span></span><br><span class="line">        <span class="comment">//经过三次异或  就可以交换两个数的位置</span></span><br><span class="line">        a7 = a7 ^ a8;</span><br><span class="line">        a8 = a7 ^ a8;</span><br><span class="line">        a7 = a7 ^ a8;</span><br><span class="line">        System.out.println(a7 +<span class="string">&quot;-------&quot;</span>+ a8);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><span class="exturl" data-url="aHR0cDovL3d3dy5ydWFueWlmZW5nLmNvbS9ibG9nLzIwMjEvMDEvX3hvci5odG1s">异或运算详解参考</span></p>
+</blockquote>
 
   </div>
 
@@ -404,9 +569,9 @@ Java-基础语法 - Java - 计算机科学 |
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">Edited on</span>
-    <time title="Modified: 2021-07-16 09:54:45" itemprop="dateModified" datetime="2021-07-16T09:54:45+08:00">2021-07-16</time>
+    <time title="Modified: 2021-07-16 21:58:53" itemprop="dateModified" datetime="2021-07-16T21:58:53+08:00">2021-07-16</time>
   </span>
-  <span id="2021/07/15/computer-science/java/Java-基础语法/" class="item leancloud_visitors" data-flag-title="Java-基础语法" title="Views">
+  <span id="2021/07/15/computer-science/java/Java-基础语法/" class="item leancloud_visitors" data-flag-title="Java-流程控制" title="Views">
       <span class="icon">
         <i class="ic i-eye"></i>
       </span>
@@ -448,7 +613,7 @@ Java-基础语法 - Java - 计算机科学 |
   </li>
   <li class="link">
     <strong>Post link: </strong>
-    <a href="http://example.com/2021/07/15/computer-science/java/Java-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" title="Java-基础语法">http://example.com/2021/07/15/computer-science/java/Java-基础语法/</a>
+    <a href="http://example.com/2021/07/15/computer-science/java/Java-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" title="Java-流程控制">http://example.com/2021/07/15/computer-science/java/Java-基础语法/</a>
   </li>
   <li class="license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
@@ -467,7 +632,7 @@ Java-基础语法 - Java - 计算机科学 |
     <div class="item left">
       
 
-  <a href="/2020/10/05/computer-science/r/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi6zu87yj30rs0yw0x0.jpg" title="Untitled">
+  <a href="/2020/10/05/computer-science/r/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi7f8f8rj312p0u0q9b.jpg" title="Untitled">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>Untitled</h3>
@@ -477,10 +642,10 @@ Java-基础语法 - Java - 计算机科学 |
     <div class="item right">
       
 
-  <a href="/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi6ytgz1j30u010077b.jpg" title="Java-初遇">
+  <a href="/2021/07/15/computer-science/java/Java-%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi72f02kj30u014wte4.jpg" title="Java-流程控制">
   <span class="type">Next Post</span>
   <span class="category"><i class="ic i-flag"></i> Java</span>
-  <h3>Java-初遇</h3>
+  <h3>Java-流程控制</h3>
   </a>
 
     </div>
@@ -499,11 +664,11 @@ Java-基础语法 - Java - 计算机科学 |
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="Contents">
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6%E5%92%8C%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.</span> <span class="toc-text"> 标识符和关键字</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.1.</span> <span class="toc-text">  关键字 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">1.2.</span> <span class="toc-text">  标识符 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F%E5%92%8C%E5%8F%98%E9%87%8F"><span class="toc-number">2.</span> <span class="toc-text"> 常量和变量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F"><span class="toc-number">2.1.</span> <span class="toc-text">  常量 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">2.2.</span> <span class="toc-text">  变量 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">3.</span> <span class="toc-text"> 数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6"><span class="toc-number">3.1.</span> <span class="toc-text">  进制 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83"><span class="toc-number">3.2.</span> <span class="toc-text">  计算机存储单元 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-2"><span class="toc-number">3.3.</span> <span class="toc-text">  数据类型 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">4.</span> <span class="toc-text"> 数据类型转换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">5.</span> <span class="toc-text"> 运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97"><span class="toc-number">5.1.</span> <span class="toc-text">  算数运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97"><span class="toc-number">5.2.</span> <span class="toc-text">  关系运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="toc-number">5.3.</span> <span class="toc-text">  位运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97"><span class="toc-number">5.4.</span> <span class="toc-text">  逻辑运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97"><span class="toc-number">5.5.</span> <span class="toc-text">  赋值运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E8%BF%90%E7%AE%97"><span class="toc-number">5.6.</span> <span class="toc-text">  条件运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#intanceof%E8%BF%90%E7%AE%97"><span class="toc-number">5.7.</span> <span class="toc-text">  intanceof运算 </span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6%E5%92%8C%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.</span> <span class="toc-text"> 标识符和关键字</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.1.</span> <span class="toc-text">  关键字 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">1.2.</span> <span class="toc-text">  标识符 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F%E5%92%8C%E5%8F%98%E9%87%8F"><span class="toc-number">2.</span> <span class="toc-text"> 常量和变量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F"><span class="toc-number">2.1.</span> <span class="toc-text">  常量 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">2.2.</span> <span class="toc-text">  变量 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">3.</span> <span class="toc-text"> 数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6"><span class="toc-number">3.1.</span> <span class="toc-text">  进制 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83"><span class="toc-number">3.2.</span> <span class="toc-text">  计算机存储单元 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-2"><span class="toc-number">3.3.</span> <span class="toc-text">  数据类型 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B4%E5%9E%8B"><span class="toc-number">3.4.</span> <span class="toc-text">  整型 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%AE%E7%82%B9%E5%9E%8B"><span class="toc-number">3.5.</span> <span class="toc-text">  浮点型 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E5%9E%8B"><span class="toc-number">3.6.</span> <span class="toc-text">  字符型 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8B"><span class="toc-number">3.7.</span> <span class="toc-text">  布尔类型 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B"><span class="toc-number">3.8.</span> <span class="toc-text">  字符串类型 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">4.</span> <span class="toc-text"> 数据类型转换</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">4.1.</span> <span class="toc-text">  自动类型转换 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">4.2.</span> <span class="toc-text">  强制类型转换 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">5.</span> <span class="toc-text"> 运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97"><span class="toc-number">5.1.</span> <span class="toc-text">  算数运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97"><span class="toc-number">5.2.</span> <span class="toc-text">  关系运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97"><span class="toc-number">5.3.</span> <span class="toc-text">  赋值运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E8%BF%90%E7%AE%97"><span class="toc-number">5.4.</span> <span class="toc-text">  条件运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97"><span class="toc-number">5.5.</span> <span class="toc-text">  逻辑运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9F%AD%E8%B7%AF%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97"><span class="toc-number">5.6.</span> <span class="toc-text">  短路逻辑运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="toc-number">5.7.</span> <span class="toc-text">  位运算 </span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="Related">
         <ul>
-          <li><a href="/2021/07/15/computer-science/java/Java-HelloWorld/" rel="bookmark" title="Java-HelloWorld">Java-HelloWorld</a></li><li><a href="/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/" rel="bookmark" title="Java-初遇">Java-初遇</a></li><li class="active"><a href="/2021/07/15/computer-science/java/Java-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" rel="bookmark" title="Java-基础语法">Java-基础语法</a></li>
+          <li><a href="/2021/07/15/computer-science/java/Java-HelloWorld/" rel="bookmark" title="Java-HelloWorld">Java-HelloWorld</a></li><li><a href="/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/" rel="bookmark" title="Java-初遇">Java-初遇</a></li><li><a href="/2021/07/15/computer-science/java/Java-%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/" rel="bookmark" title="Java-流程控制">Java-流程控制</a></li><li class="active"><a href="/2021/07/15/computer-science/java/Java-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" rel="bookmark" title="Java-流程控制">Java-流程控制</a></li>
         </ul>
       </div>
       <div class="overview panel" data-title="Overview">
@@ -517,7 +682,7 @@ Java-基础语法 - Java - 计算机科学 |
 <nav class="state">
     <div class="item posts">
         <a href="/archives">
-        <span class="count">7</span>
+        <span class="count">8</span>
         <span class="name">posts</span>
       </a>
     </div>
@@ -580,7 +745,7 @@ Java-基础语法 - Java - 计算机科学 |
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a>
+        <a href="/2021/07/15/computer-science/java/Java-%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
