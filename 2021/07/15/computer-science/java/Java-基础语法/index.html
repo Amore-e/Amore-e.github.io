@@ -101,12 +101,12 @@ Java-基础语法 - Java - 计算机科学 |
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/006Idzc3ly1gisi759or0j30u019dapk.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/006Idzc3ly1gisi7e2kxsj30u013qgo8.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7dciuqj30u0137n3v.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7geji0j30rs110dle.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/006Idzc3ly1gisi72f02kj30u014wte4.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/006Idzc3ly1gisi7hm2vsj30u0191mze.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/006Idzc3ly1gisi77jx7rj30u013zgxc.jpg"></li>
+          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/006Idzc3ly1gisi6ytgz1j30u010077b.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7f8f8rj312p0u0q9b.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi718graj30rs1fv79z.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi7e2kxsj30u013qgo8.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/006Idzc3ly1gisi72f02kj30u014wte4.jpg"></li>
         </ul>
       </div>
     </header>
@@ -177,7 +177,7 @@ Java-基础语法 - Java - 计算机科学 |
 <ul>
 <li>只能由数字、字母、下划线（_）、美元符号（$）组成。</li>
 <li>不能以数字开头。</li>
-<li>不能是数字和保留字。</li>
+<li>不能是关键字和保留字。</li>
 <li>大小写敏感（严格区分大小写）。</li>
 <li>尽量做到 “见名知意”。</li>
 </ul>
@@ -253,7 +253,6 @@ Java-基础语法 - Java - 计算机科学 |
 </tr>
 </tbody>
 </table>
-<hr>
 <p> </p>
 <h3 id="变量"><a class="markdownIt-Anchor" href="#变量">#</a> <strong> <code>变量</code> </strong></h3>
 <hr>
@@ -269,7 +268,7 @@ Java-基础语法 - Java - 计算机科学 |
 <ul>
 <li>变量使用的注意事项：
 <ul>
-<li>在同一个大括号范围内   变量名称不允许重复。</li>
+<li>在同一个大括号范围内，变量名称不允许重复。</li>
 <li>变量在第一次使用之前必须进行初始化（赋值）。</li>
 <li>对于我们的 long 和 flot 类型，在声明该类型的变量的时候，必须在其末尾添加标记。</li>
 </ul>
@@ -279,6 +278,121 @@ Java-基础语法 - Java - 计算机科学 |
 <blockquote>
 <h2 id="数据类型"><a class="markdownIt-Anchor" href="#数据类型">#</a> 数据类型</h2>
 </blockquote>
+<h3 id="进制"><a class="markdownIt-Anchor" href="#进制">#</a> <strong> <code>进制</code> </strong></h3>
+<hr>
+<ul>
+<li>
+<p>二进制，是计算技术中广泛采用的一种数制。<br>
+二进制数据是用 <code>0</code>  和 <code>1</code>  两个数码来表示的数。<br>
+它的 <code>基数为2</code> ，进位规则是 <code>“逢二进一”</code> 。<br>
+数字计算机只能识别和处理由‘0’、‘1’符号串组成的代码，其运算模式是二进制。</p>
+</li>
+<li>
+<p>八进制， <code>基数为8</code> ，进位规则是 <code>“逢八进一”</code> 。<br>
+八进制数据是由 <code>0-7</code>  八个数码表示的数。</p>
+</li>
+<li>
+<p>十六进制， <code>基数为16</code> ，进位规则是 <code>“逢十六进一”</code> 。<br>
+十六进制数据是用 <code>0-9</code>  和 <code>A-F(a-f)</code>  十六个数码来表示的数据。</p>
+</li>
+</ul>
+<h3 id="计算机存储单元"><a class="markdownIt-Anchor" href="#计算机存储单元">#</a> <strong> <code>计算机存储单元</code> </strong></h3>
+<hr>
+<h3 id="数据类型-2"><a class="markdownIt-Anchor" href="#数据类型-2">#</a> <strong> <code>数据类型</code> </strong></h3>
+<hr>
+<p>java 是强类型语言。</p>
+<blockquote>
+<h2 id="数据类型转换"><a class="markdownIt-Anchor" href="#数据类型转换">#</a> 数据类型转换</h2>
+</blockquote>
+<blockquote>
+<h2 id="运算符"><a class="markdownIt-Anchor" href="#运算符">#</a> 运算符</h2>
+</blockquote>
+<p>运算符：<br>
+表达式：</p>
+<p>java 提供的运算符分为以下几类：</p>
+<pre><code>算数运算符
+关系运算符
+位运算符（左*2，右/2）
+逻辑运算符
+赋值运算符
+其他运算符
+</code></pre>
+<h3 id="算数运算"><a class="markdownIt-Anchor" href="#算数运算">#</a> <strong> <code>算数运算</code> </strong></h3>
+<hr>
+<p>算数运算符包括加法（+）、减法（-）、乘法（*）、除法（/）、取余（%）、自增（++）、自减（–）。</p>
+<ul>
+<li>
+<p><font color = red>注意：</font>除法运算结果是两数相除取整。<br>
+自增（减）运算， <code>a++;a--;</code>  表示先运算再自增 (减) 1。<br>
+ <code>++a;--a;</code>  表示先自增（减）1，再进行运算。</p>
+</li>
+<li>
+<p>整数运算</p>
+<ul>
+<li>byte、short、int 类型的数据之间进行运算，结果均为 int 类型。</li>
+<li>任意操作数为 long 类型，则结果必为 long 类型。</li>
+</ul>
+</li>
+<li>
+<p>浮点运算</p>
+<ul>
+<li>两个操作数都是 float 时，结果为 float 类型。</li>
+<li>任意操作数为 double 类型时，结果必为 double 类型。</li>
+</ul>
+</li>
+<li>
+<p>取模求余</p>
+</li>
+</ul>
+<h3 id="关系运算"><a class="markdownIt-Anchor" href="#关系运算">#</a> <strong> <code>关系运算</code> </strong></h3>
+<p>下表为 Java 支持的关系运算符。</p>
+<p>表格中的实例整数变量 A 的值为 10，变量 B 的值为 20：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">运算符</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:left">例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">==</td>
+<td style="text-align:center">检查如果两个操作数的值是否相等，如果相等则条件为真。</td>
+<td style="text-align:left">（A == B）为假。</td>
+</tr>
+<tr>
+<td style="text-align:left">!=</td>
+<td style="text-align:center">检查如果两个操作数的值是否相等，如果值不相等则条件为真。</td>
+<td style="text-align:left">(A != B) 为真。</td>
+</tr>
+<tr>
+<td style="text-align:left">&gt;</td>
+<td style="text-align:center">检查左操作数的值是否大于右操作数的值，如果是那么条件为真。</td>
+<td style="text-align:left">（A&gt; B）为假。</td>
+</tr>
+<tr>
+<td style="text-align:left">&lt;</td>
+<td style="text-align:center">检查左操作数的值是否小于右操作数的值，如果是那么条件为真。</td>
+<td style="text-align:left">（A &lt;B）为真。</td>
+</tr>
+<tr>
+<td style="text-align:left">&gt;=</td>
+<td style="text-align:center">检查左操作数的值是否大于或等于右操作数的值，如果是那么条件为真。</td>
+<td style="text-align:left">（A&gt; = B）为假。</td>
+</tr>
+<tr>
+<td style="text-align:left">&lt;=</td>
+<td style="text-align:center">检查左操作数的值是否小于或等于右操作数的值，如果是那么条件为真。</td>
+<td style="text-align:left">（A &lt;= B）为真。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="位运算"><a class="markdownIt-Anchor" href="#位运算">#</a> <strong> <code>位运算</code> </strong></h3>
+<h3 id="逻辑运算"><a class="markdownIt-Anchor" href="#逻辑运算">#</a> <strong> <code>逻辑运算</code> </strong></h3>
+<h3 id="赋值运算"><a class="markdownIt-Anchor" href="#赋值运算">#</a> <strong> <code>赋值运算</code> </strong></h3>
+<h3 id="条件运算"><a class="markdownIt-Anchor" href="#条件运算">#</a> <strong> <code>条件运算</code> </strong></h3>
+<h3 id="intanceof运算"><a class="markdownIt-Anchor" href="#intanceof运算">#</a> <strong> <code>intanceof运算</code> </strong></h3>
 
   </div>
 
@@ -290,7 +404,7 @@ Java-基础语法 - Java - 计算机科学 |
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">Edited on</span>
-    <time title="Modified: 2021-07-16 08:17:50" itemprop="dateModified" datetime="2021-07-16T08:17:50+08:00">2021-07-16</time>
+    <time title="Modified: 2021-07-16 09:54:45" itemprop="dateModified" datetime="2021-07-16T09:54:45+08:00">2021-07-16</time>
   </span>
   <span id="2021/07/15/computer-science/java/Java-基础语法/" class="item leancloud_visitors" data-flag-title="Java-基础语法" title="Views">
       <span class="icon">
@@ -353,7 +467,7 @@ Java-基础语法 - Java - 计算机科学 |
     <div class="item left">
       
 
-  <a href="/2020/10/05/computer-science/r/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi7dciuqj30u0137n3v.jpg" title="Untitled">
+  <a href="/2020/10/05/computer-science/r/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi6zu87yj30rs0yw0x0.jpg" title="Untitled">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>Untitled</h3>
@@ -363,7 +477,7 @@ Java-基础语法 - Java - 计算机科学 |
     <div class="item right">
       
 
-  <a href="/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi759or0j30u019dapk.jpg" title="Java-初遇">
+  <a href="/2021/07/15/computer-science/java/Java-%E5%88%9D%E9%81%87/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;006Idzc3ly1gisi6ytgz1j30u010077b.jpg" title="Java-初遇">
   <span class="type">Next Post</span>
   <span class="category"><i class="ic i-flag"></i> Java</span>
   <h3>Java-初遇</h3>
@@ -385,7 +499,7 @@ Java-基础语法 - Java - 计算机科学 |
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="Contents">
-          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6%E5%92%8C%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.</span> <span class="toc-text"> 标识符和关键字</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.1.</span> <span class="toc-text">  关键字 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">1.2.</span> <span class="toc-text">  标识符 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F%E5%92%8C%E5%8F%98%E9%87%8F"><span class="toc-number">2.</span> <span class="toc-text"> 常量和变量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F"><span class="toc-number">2.1.</span> <span class="toc-text">  常量 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">2.2.</span> <span class="toc-text">  变量 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">3.</span> <span class="toc-text"> 数据类型</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6%E5%92%8C%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.</span> <span class="toc-text"> 标识符和关键字</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-number">1.1.</span> <span class="toc-text">  关键字 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-number">1.2.</span> <span class="toc-text">  标识符 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F%E5%92%8C%E5%8F%98%E9%87%8F"><span class="toc-number">2.</span> <span class="toc-text"> 常量和变量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F"><span class="toc-number">2.1.</span> <span class="toc-text">  常量 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">2.2.</span> <span class="toc-text">  变量 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">3.</span> <span class="toc-text"> 数据类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E5%88%B6"><span class="toc-number">3.1.</span> <span class="toc-text">  进制 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%98%E5%82%A8%E5%8D%95%E5%85%83"><span class="toc-number">3.2.</span> <span class="toc-text">  计算机存储单元 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B-2"><span class="toc-number">3.3.</span> <span class="toc-text">  数据类型 </span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">4.</span> <span class="toc-text"> 数据类型转换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">5.</span> <span class="toc-text"> 运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%97%E6%95%B0%E8%BF%90%E7%AE%97"><span class="toc-number">5.1.</span> <span class="toc-text">  算数运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%E8%BF%90%E7%AE%97"><span class="toc-number">5.2.</span> <span class="toc-text">  关系运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="toc-number">5.3.</span> <span class="toc-text">  位运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97"><span class="toc-number">5.4.</span> <span class="toc-text">  逻辑运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97"><span class="toc-number">5.5.</span> <span class="toc-text">  赋值运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E8%BF%90%E7%AE%97"><span class="toc-number">5.6.</span> <span class="toc-text">  条件运算 </span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#intanceof%E8%BF%90%E7%AE%97"><span class="toc-number">5.7.</span> <span class="toc-text">  intanceof运算 </span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="Related">
         <ul>
