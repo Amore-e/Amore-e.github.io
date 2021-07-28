@@ -1252,7 +1252,7 @@ java 的两大数据类型：&lt;/p&gt;
 &lt;li&gt;&lt;font color = &#34;DarkTurquoise&#34;&gt;栈内存&lt;/font&gt;：保存一块堆内存的&lt;u&gt;地址&lt;/u&gt;。(通过地址找到堆内存，然后找到对象内容)。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;https://imgtu.com/i/WccXrT&#34;&gt;&lt;img data-src=&#34;https://z3.ax1x.com/2021/07/24/WccXrT.png&#34; alt=&#34;WccXrT.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gitee.com/MoonHalo/blog-photos/raw/master/java-img/01.png&#34;&gt;&lt;img data-src=&#34;https://gitee.com/MoonHalo/blog-photos/raw/master/java-img/01.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gitee.com/MoonHalo/blog-photos/raw/master/java-img/01.png&#34;&gt;&lt;img data-src=&#34;https://gitee.com/MoonHalo/blog-photos/raw/master/java-img/01.png&#34; alt=&#34;01.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;对象的实例化有两种方式：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;声明并完成实例化对象。（一步到位）&lt;/li&gt;
